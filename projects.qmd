@@ -1,0 +1,9 @@
+---
+title: "Projects"
+---
+
+## Project 1: NIR analyses
+
+## Project 2: Reistance drilling
+
+## Project 3: Data analysis
