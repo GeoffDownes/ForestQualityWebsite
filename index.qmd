@@ -9,7 +9,6 @@ editor:
     wrap: 72
 ---
 
-::: {#me}
 ## What do we do?
 
 Forest Quality is a research and development company aimed at
