@@ -13,14 +13,27 @@ editor:
 ## What do we do?
 
 Forest Quality is a research and development company aimed at
+facilitating the evaluation of wood quality and value in the standing
+tree. Based in southern Tasmania, Australia, we provide the following
+services
+
+-   web-based processing of resistance drill traces taken using the IML
+    PD series power drills
+
+-   NIR analysis for the prediction of pulp yield and density in
+    eucalypt samples
+
+-   Analytical and reporting services of wood quality assessments
 
 ```{r}
 #| label: fig-drilling
+#| fig-width: 5
+#| fig-height: 5
+#| out-width: "50%"
 
+knitr::include_graphics("./img/coreSampling.png")
 
 ```
-
-## How can we help
 
 ## Experience
 
