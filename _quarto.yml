@@ -3,13 +3,15 @@ project:
   output-dir: docs
   
 website:
-  title: "Forest Quality"
+  title: "Forest Quality Pty. Ltd."
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - projects.qmd
-      - href: https://github.com/GeoffDownes/ForestQualityWebsite
+      - Resistance-Drilling.qmd
+      - NIR-Analyses.qmd
+      - Data-Analyses.qmd
+#href: https://github.com/GeoffDownes/ForestQualityWebsite
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
     left: "&copy; Copyright 2025, Geoff Downes"
@@ -17,7 +19,7 @@ website:
 format:
   html:
     theme: ForestQuality.scss
-    css: styles.css
+# css: styles.css
     toc: true
 
 editor: source

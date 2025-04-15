@@ -1,0 +1,21 @@
+---
+title: "NIR Analyses"
+---
+
+## Woodmeal
+
+### KPY
+
+### Cellulose
+
+### Lignin Content
+
+## Increment cores
+
+### Modulus of Elasticity (MOE)
+
+### Basic Density
+
+### Microfribril angle (MFA)
+
+### Non-recoverable collapse
