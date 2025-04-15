@@ -74,7 +74,7 @@ $dropdown-link-hover-bg:            $secondary !default;
 // Pagination
 
 $pagination-color:                  $black !default;
-$pagination-bg:                     $primary !default;
+$pagination-bg:                     $white !default;
 $pagination-border-color:           $primary !default;
 $pagination-hover-color:            $white !default;
 $pagination-hover-bg:               $secondary !default;
@@ -94,7 +94,7 @@ $alert-bg-scale:                    0% !default;
 
 $breadcrumb-padding-y:              .375rem !default;
 $breadcrumb-padding-x:              .75rem !default;
-$breadcrumb-bg:                     $primary !default;
+$breadcrumb-bg:                     $white !default;
 $breadcrumb-divider-color:          $white !default;
 $breadcrumb-active-color:           $breadcrumb-divider-color !default;
 $breadcrumb-border-radius:          .25rem !default;
@@ -111,7 +111,27 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;50
   @import url($web-font-path);
 }
 
+// table of contents;
 
+#toc_container {
+    color: $secondary !important;
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
 
 //Banner
 .banner {
@@ -125,7 +145,7 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;50
 .navbar {
   width: 100%;
   background-color: $primary;
-  overflow: auto;
+#  overflow: auto;
 }
 
 /* Navbar links */
@@ -140,13 +160,14 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;50
 
 /* Navbar links on mouse-over */
 .navbar a:hover {
-  background-color: $primary;
+# background-color: $primary;
   color: $gray-700;
 }
 
 /* Current/active navbar link */
 .active {
-  background-color: $primary;
+#  background-color: $secondary;
+  color: $black !important;
 }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
