@@ -1,9 +1,32 @@
 ---
 title: "Resistance drilling"
+bibliography: references.bib
+lightbox: true
 ---
 
-## Explanation
+## Background
+
+Timber production via plantation forestry is a relatively slow process that transcends multiple cycles of shifts in government policy that affect its efficiency, focus and profitability. Over recent decades general economic policy paradigms have favoured the dis-aggregation of the forest supply chain into, broadly speaking, growers, processors and manufacturers. A consequence of this has been the financial incentive for growers to shorten rotation lengths, enhancing the return on investment by a primary focus on improved stem diameter and volume growth rates.
+
+The variation in plantation softwood wood properties within the stem has been a major focus of research [@lachenbruch2011; @gil-moreno2023; @evans1994] over decades with a well established pattern of increasing basic density from pith to bark, together with the associated decrease in microfibril angle [@moore2014; @pot2025], resulting in a pattern of radial improvement in structural wood quality. In general terms this is understood in terms of juvenile (low quality) wood near the pith and mature (better quality) wood towards the bark. Consequently a reduction in rotation length, as optimal log diameters are achieved at earlier ages, results in an increase in the proportion of lower quality juvenile wood in logs [@kennedy1995; @pot2025a]. Longitudinal variation in log properties, which is markedly effected by the radial variation patterns, has also been studied extensively [@donaldson2004; @xu2004; @watt2011; @waghorn2007; @beets2018], having the advantage that variation can more easily be partitioned into logs of varying quality according to their within-stem position. Understanding and quantifying the effects of site, rotation length and management on these longitudinal patterns of wood property change can assist the valuation of stands by basing value on additional stem features as well as volume and form.
+
+Wood property assessment of softwood plantations in Australia is increasingly becoming a routine operation [@gendvilas2024a] as growers endeavour to understand the variability in value across their estates and gain commercial advantage from supplying logs of known properties to their customers. Typically basic density assessments via pilodyn [@Watt1996] or outerwood increment coring has been the common approach [@Cown1983]. However this has been too expensive for wide spread commercial.
+
+Resistance drilling, combined with web-based processing of traces (e.g. <https://forestquality.shinyapps.io/OpenAccess/>), has increasingly been utilised by growers in Australia, as research has demonstrated the low-cost, precision and accuracy of the various metrics produced (under and over-bark diameter, basic density, predicted stiffness and acoustic wave velocity) [@RN48; @downes2018; @gendvilas2024a]. The focus of this effort has been to estimate or predict log stiffness, typically using basic density as a surrogate, but increasingly utilising regression models that include additional metrics extracted from the Resi trace related to AWV variance as assessed suing the FibreGen HM200 instrument [@Downes2016].
 
 ## Quantitative trace processing
+
+FQ began working quantitatively with resistance drilling using the IML PD-400 instrument (<https://imlaustralia.com/product/iml-powerdrill/>). The objective was to predict acoustic wave velocity (HM200: <https://www.fibre-gen.com/hitman-hm220>) that was typically used by New Zealand industry to assess log stiffness in radiata pine. Others have also pursued the relationship between Resi data and wood stiffness [@sharapov2019]. However it became obvious that, if commercial application of the technology was going to be cost-effective, the processing of the individual traces produced by the IML PD series drills, needed to be simple, fast and robust, requiring minimal or no user involvement.
+
+At FQ we set about developing and testing a web platform application that would do all trace processing and data extraction that a commercial user would require and more. The result has been that resistance drilling combined with our web platform services for wood property assessment has now become;
+
+-   routine in much of the Australian softwood and hardwood estate.
+-   used in many research and commercial trials demonstrating the quantitative link between standing tree and product
+    -   [@downes2018; @downes2022; @Downes2016; @RN32; @gendvilas2024a; @RN52; @gendvilas2020]
+-   becoming incorporated into growth and yield tables
+-   adopted in an increasing range of countries including NewZealand, Indonesia, China and Brazil
+
+
+![Web platform user interface](./images/WebPlatformGUI.png){width="100%"}
 
 ## References

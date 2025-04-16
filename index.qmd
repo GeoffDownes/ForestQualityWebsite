@@ -1,13 +1,15 @@
 ---
 title: "Forest Quality Pty Ltd"
+lightbox: auto
 editor: 
   markdown: 
     wrap: 120
 ---
 
-## What do we do?
+<br>
+<br>
 
-Forest Quality is a research and development company aimed at facilitating the evaluation of wood quality and value in
+Forest Quality is a research and development company aimed at facilitating the evaluation of wood quality and improving the value of
 the standing tree. Based in southern Tasmania, Australia, we provide the following services
 
 -   Web-based processing of resistance drill traces taken using the IML PD series power drills
@@ -16,15 +18,12 @@ the standing tree. Based in southern Tasmania, Australia, we provide the followi
 
 -   Analysis and reporting services of wood quality assessments
 
-```{r}
-#| label: fig-drilling
-#| fig-width: 5
-#| fig-height: 5
-#| out-width: "50%"
-#| echo: false
 
-knitr::include_graphics("./img/coreSampling.png")
+::: {layout-ncol=3}
+![Increment Core sampling](./images/coreSampling.png)
 
-```
+![Resi sampling](./images/Resi_Marco.jpg)
 
+![Site mean density maps](./images/TPPL TreeMaps.png)
 
+:::

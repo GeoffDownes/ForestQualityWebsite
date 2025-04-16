@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -96,11 +99,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Resistance drilling</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./NIR-Analyses.html"> 
+    <a class="nav-link" href="./NIR-Analysis.html"> 
 <span class="menu-text">NIR Analyses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Data-Analyses.html"> 
+    <a class="nav-link" href="./Data-Analysis.html"> 
 <span class="menu-text">Data Analyses</span></a>
   </li>  
   <li class="nav-item">
@@ -118,14 +121,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#what-do-we-do" id="toc-what-do-we-do" class="nav-link active" data-scroll-target="#what-do-we-do">What do we do?</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -149,31 +146,46 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="what-do-we-do" class="level2">
-<h2 class="anchored" data-anchor-id="what-do-we-do">What do we do?</h2>
-<p>Forest Quality is a research and development company aimed at facilitating the evaluation of wood quality and value in the standing tree. Based in southern Tasmania, Australia, we provide the following services</p>
+<p><br> <br></p>
+<p>Forest Quality is a research and development company aimed at facilitating the evaluation of wood quality and improving the value of the standing tree. Based in southern Tasmania, Australia, we provide the following services</p>
 <ul>
 <li><p>Web-based processing of resistance drill traces taken using the IML PD series power drills</p></li>
 <li><p>NIR analysis for the prediction of pulp yield and density in eucalypt samples</p></li>
 <li><p>Analysis and reporting services of wood quality assessments</p></li>
 </ul>
-<div class="cell">
-<div class="cell-output-display">
-<div id="fig-drilling" class="quarto-float quarto-figure quarto-figure-center anchored" width="50%">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-drilling-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="./img/coreSampling.png" id="fig-drilling" class="img-fluid figure-img" style="width:50.0%">
+<div>
+
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-drilling-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1
-</figcaption>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./images/coreSampling.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Increment Core sampling"><img src="./images/coreSampling.png" class="img-fluid figure-img" alt="Increment Core sampling"></a></p>
+<figcaption>Increment Core sampling</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./images/Resi_Marco.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Resi sampling"><img src="./images/Resi_Marco.jpg" class="img-fluid figure-img" alt="Resi sampling"></a></p>
+<figcaption>Resi sampling</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./images/TPPL TreeMaps.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Site mean density maps"><img src="./images/TPPL TreeMaps.png" class="img-fluid figure-img" alt="Site mean density maps"></a></p>
+<figcaption>Site mean density maps</figcaption>
 </figure>
 </div>
 </div>
 </div>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -610,6 +622,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":false});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

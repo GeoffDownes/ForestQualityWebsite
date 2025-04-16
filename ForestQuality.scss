@@ -113,6 +113,22 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;50
 
 // table of contents;
 
+#toc_container {
+    color: $secondary !important;
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
 
 //Banner
 .banner {
