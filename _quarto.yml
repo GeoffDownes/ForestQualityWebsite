@@ -5,9 +5,18 @@ project:
 website:
   title: "Forest Quality Pty. Ltd."
   page-navigation: true
-  
   sidebar:
+    style: "docked"
     search: true
+    contents: 
+    - text: "Resistance Drilling"
+      href: Resistance-Drilling.qmd
+    - section: "NIR analysis"
+      href: NIR-Analysis.qmd
+      contents:
+          - NIR-basics.qmd
+    - text: "Data analysis"
+      href: Data-Analysis.qmd
   
   navbar:
     collapse: true
@@ -15,10 +24,7 @@ website:
     logo: ./images/LogoCompact.png
     left:
       - href: index.qmd
-        text: Home
-      - Resistance-Drilling.qmd
-      - NIR-Analysis.qmd
-      - Data-Analysis.qmd
+        text: "Introduction"
       - About.qmd
   
 #href: https://github.com/GeoffDownes/ForestQualityWebsite

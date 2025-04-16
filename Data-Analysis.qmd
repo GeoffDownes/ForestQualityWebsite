@@ -1,11 +1,12 @@
 ---
 title: "Data Analyses"
 ---
-
+<br>
 ## Data collection: field work
 
 ## Data processing
 
 ## Analysis and reporting
+We can undertake the analysis and reporting of wood property data collected either by us or others, utilising our experience with data analysis and the broader literature. An example of a report produced is:\![Example Report](ThreeResi_SilviScanAnalysis-radiata.pdf)
 
 ## References

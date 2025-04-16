@@ -1,21 +1,50 @@
 ---
 title: "NIR Analyses"
+bibliography: references.bib
 ---
 
-## Woodmeal
+## The Value Proposition
 
-### KPY
+Growing eucalypts for pulp depends on growing merchantable volume as quickly as possible. The mass of pulp produced from each unit area of forest depends on
 
-### Cellulose
+-   Merchantable volume
+-   Wood density
+-   Pulp yield
 
-### Lignin Content
+​Pulp yield is the proportion of biomass that remains at the end of the pulping process [@downes1997].
 
-## Increment cores
+​For a pulp mill processing 4 million green tonnes of wood per year, an increase in Kraft pulp yield (KPY) of 1% equates to \~20,000 tonnes of extra pulp for no additional growing or processing costs.
 
-### Modulus of Elasticity (MOE)
+Unlike volume and density, KPY has been slow and expensive to measure. Consequently both forest growers and pulp manufacturers have had limited opportunity to include it in managing their value chain.
 
-### Basic Density
+​NIR prediction of KPY is inexpensive, requires only small (1 gram or more) samples.
 
-### Microfribril angle (MFA)
+## Low cost Pulp Yield assessment
 
-### Non-recoverable collapse
+Near Infra Red (NIR) spectroscopy is widely used in agriculture and manufacturing. Application to KPY measurement  spans two decades of R&D, demonstrating its ability to provide precise measurements of KPY in samples as small as 0.5 gm. 
+
+Numerous studies have shown NIR offers
+
+​Low cost measurement
+
+-   Expanded application of traditional analyses
+-   Efficient ranking of trees and sites
+-   Precise KPY values that are highly heritable
+
+NIR can be used to measure a range of commercially valuable wood properties
+
+-    Pulp Yield 
+-    Density 
+-    Dry Matter content 
+-    Stiffness 
+-    Microfibril Angle
+
+The biggest issue is trusting the values that NIR measurement generates. 
+
+Consequently any application of NIR requires a means of quality control until such time as the user has confidence that the values are precise.  This can only occur through repeated experience.
+
+The development of NIR calibrations is therefore an iterative process.  Cycles of development and validation are required until precise and accurate predictions are consistently obtained.  This process applies to both the type of NIR application being developed and the individual wood property being measured.
+
+Near Infra Red spectroscopy is a multi-variate statistical approach to obtain qualitative and/or quantitative information about the properties of an organic substance based on its absorption of light in the near infra red range (typically 1000 – 2500 nm)
+
+## 

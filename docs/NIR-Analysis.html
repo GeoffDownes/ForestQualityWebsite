@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,6 +50,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./NIR-basics.html" rel="next">
+<link href="./Resistance-Drilling.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -92,19 +114,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Resistance-Drilling.html"> 
-<span class="menu-text">Resistance drilling</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./NIR-Analysis.html" aria-current="page"> 
-<span class="menu-text">NIR Analyses</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Data-Analysis.html"> 
-<span class="menu-text">Data Analyses</span></a>
+<span class="menu-text">Introduction</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./About.html"> 
@@ -121,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">NIR Analyses</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./NIR-Analysis.html">NIR analysis</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -133,12 +143,45 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
         </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Resistance-Drilling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resistance Drilling</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./NIR-Analysis.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">NIR analysis</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./NIR-basics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NIR basics</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Data-Analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data analysis</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -147,19 +190,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#woodmeal" id="toc-woodmeal" class="nav-link active" data-scroll-target="#woodmeal">Woodmeal</a>
-  <ul class="collapse">
-  <li><a href="#kpy" id="toc-kpy" class="nav-link" data-scroll-target="#kpy">KPY</a></li>
-  <li><a href="#cellulose" id="toc-cellulose" class="nav-link" data-scroll-target="#cellulose">Cellulose</a></li>
-  <li><a href="#lignin-content" id="toc-lignin-content" class="nav-link" data-scroll-target="#lignin-content">Lignin Content</a></li>
-  </ul></li>
-  <li><a href="#increment-cores" id="toc-increment-cores" class="nav-link" data-scroll-target="#increment-cores">Increment cores</a>
-  <ul class="collapse">
-  <li><a href="#modulus-of-elasticity-moe" id="toc-modulus-of-elasticity-moe" class="nav-link" data-scroll-target="#modulus-of-elasticity-moe">Modulus of Elasticity (MOE)</a></li>
-  <li><a href="#basic-density" id="toc-basic-density" class="nav-link" data-scroll-target="#basic-density">Basic Density</a></li>
-  <li><a href="#microfribril-angle-mfa" id="toc-microfribril-angle-mfa" class="nav-link" data-scroll-target="#microfribril-angle-mfa">Microfribril angle (MFA)</a></li>
-  <li><a href="#non-recoverable-collapse" id="toc-non-recoverable-collapse" class="nav-link" data-scroll-target="#non-recoverable-collapse">Non-recoverable collapse</a></li>
-  </ul></li>
+  <li><a href="#the-value-proposition" id="toc-the-value-proposition" class="nav-link active" data-scroll-target="#the-value-proposition">The Value Proposition</a></li>
+  <li><a href="#low-cost-pulp-yield-assessment" id="toc-low-cost-pulp-yield-assessment" class="nav-link" data-scroll-target="#low-cost-pulp-yield-assessment">Low cost Pulp Yield assessment</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -185,37 +218,54 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="woodmeal" class="level2">
-<h2 class="anchored" data-anchor-id="woodmeal">Woodmeal</h2>
-<section id="kpy" class="level3">
-<h3 class="anchored" data-anchor-id="kpy">KPY</h3>
+<section id="the-value-proposition" class="level2">
+<h2 class="anchored" data-anchor-id="the-value-proposition">The Value Proposition</h2>
+<p>Growing eucalypts for pulp depends on growing merchantable volume as quickly as possible. The mass of pulp produced from each unit area of forest depends on</p>
+<ul>
+<li>Merchantable volume</li>
+<li>Wood density</li>
+<li>Pulp yield</li>
+</ul>
+<p>​Pulp yield is the proportion of biomass that remains at the end of the pulping process <span class="citation" data-cites="downes1997">(<a href="#ref-downes1997" role="doc-biblioref">Downes et al. 1997</a>)</span>.</p>
+<p>​For a pulp mill processing 4 million green tonnes of wood per year, an increase in Kraft pulp yield (KPY) of 1% equates to ~20,000 tonnes of extra pulp for no additional growing or processing costs.</p>
+<p>Unlike volume and density, KPY has been slow and expensive to measure. Consequently both forest growers and pulp manufacturers have had limited opportunity to include it in managing their value chain.</p>
+<p>​NIR prediction of KPY is inexpensive, requires only small (1 gram or more) samples.</p>
 </section>
-<section id="cellulose" class="level3">
-<h3 class="anchored" data-anchor-id="cellulose">Cellulose</h3>
+<section id="low-cost-pulp-yield-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="low-cost-pulp-yield-assessment">Low cost Pulp Yield assessment</h2>
+<p>Near Infra Red (NIR) spectroscopy is widely used in agriculture and manufacturing. Application to KPY measurement&nbsp; spans two decades of R&amp;D, demonstrating its ability to provide precise measurements of KPY in samples as small as 0.5 gm.&nbsp;</p>
+<p>Numerous studies have shown NIR offers</p>
+<p>​Low cost measurement</p>
+<ul>
+<li>Expanded application of traditional analyses</li>
+<li>Efficient ranking of trees and sites</li>
+<li>Precise KPY values that are highly heritable</li>
+</ul>
+<p>NIR can be used to measure a range of commercially valuable wood properties</p>
+<ul>
+<li>&nbsp;Pulp Yield&nbsp;</li>
+<li>&nbsp;Density&nbsp;</li>
+<li>&nbsp;Dry Matter content&nbsp;</li>
+<li>&nbsp;Stiffness&nbsp;</li>
+<li>&nbsp;Microfibril Angle</li>
+</ul>
+<p>The biggest issue is trusting the values that NIR measurement generates.&nbsp;</p>
+<p>Consequently any application of NIR requires a means of quality control until such time as the user has confidence that the values are precise.&nbsp; This can only occur through repeated experience.</p>
+<p>The development of NIR calibrations is therefore an iterative process.&nbsp; Cycles of development and validation are required until precise and accurate predictions are consistently obtained.&nbsp; This process applies to both the type of NIR application being developed and the individual wood property being measured.</p>
+<p>Near Infra Red spectroscopy is a multi-variate statistical approach to obtain qualitative and/or quantitative information about the properties of an organic substance based on its absorption of light in the near infra red range (typically 1000 – 2500 nm)</p>
 </section>
-<section id="lignin-content" class="level3">
-<h3 class="anchored" data-anchor-id="lignin-content">Lignin Content</h3>
-</section>
-</section>
-<section id="increment-cores" class="level2">
-<h2 class="anchored" data-anchor-id="increment-cores">Increment cores</h2>
-<section id="modulus-of-elasticity-moe" class="level3">
-<h3 class="anchored" data-anchor-id="modulus-of-elasticity-moe">Modulus of Elasticity (MOE)</h3>
-</section>
-<section id="basic-density" class="level3">
-<h3 class="anchored" data-anchor-id="basic-density">Basic Density</h3>
-</section>
-<section id="microfribril-angle-mfa" class="level3">
-<h3 class="anchored" data-anchor-id="microfribril-angle-mfa">Microfribril angle (MFA)</h3>
-</section>
-<section id="non-recoverable-collapse" class="level3">
-<h3 class="anchored" data-anchor-id="non-recoverable-collapse">Non-recoverable collapse</h3>
+<section id="section" class="level2">
+
+
 
 
 </section>
-</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-downes1997" class="csl-entry" role="listitem">
+Downes, GM, IL Hudson, CA Raymond, GH Dean, AJ Michell, LR Schimleck, R Evans, and A Muneri. 1997. <em>Sampling Plantation Eucalypts for Wood and Fibre Properties</em>. CSIRO Publishing. <a href="https://doi.org/10.1071/9780643105287">https://doi.org/10.1071/9780643105287</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -636,6 +686,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./Resistance-Drilling.html" class="pagination-link" aria-label="Resistance Drilling">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Resistance Drilling</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./NIR-basics.html" class="pagination-link" aria-label="NIR basics">
+        <span class="nav-page-text">NIR basics</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
