@@ -1,5 +1,6 @@
 ---
 title: "Forest Quality Pty Ltd"
+date: today
 lightbox: auto
 editor: 
   markdown: 

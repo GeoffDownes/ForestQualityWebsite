@@ -4,7 +4,15 @@ project:
   
 website:
   title: "Forest Quality Pty. Ltd."
+  page-navigation: true
+  
+  sidebar:
+    search: true
+  
   navbar:
+    collapse: true
+    search: true
+    logo: ./images/LogoCompact.png
     left:
       - href: index.qmd
         text: Home
@@ -12,8 +20,6 @@ website:
       - NIR-Analysis.qmd
       - Data-Analysis.qmd
       - About.qmd
-
-    bibliography: references.bib
   
 #href: https://github.com/GeoffDownes/ForestQualityWebsite
   page-footer:
