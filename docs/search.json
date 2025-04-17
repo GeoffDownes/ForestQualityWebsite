@@ -4,65 +4,66 @@
     "href": "Resistance-Drilling.html",
     "title": "Resistance drilling",
     "section": "",
-    "text": "Timber production via plantation forestry is a relatively slow process that transcends multiple cycles of shifts in government policy that affect its efficiency, focus and profitability. Over recent decades general economic policy paradigms have favoured the dis-aggregation of the forest supply chain into, broadly speaking, growers, processors and manufacturers. A consequence of this has been the financial incentive for growers to shorten rotation lengths, enhancing the return on investment by a primary focus on improved stem diameter and volume growth rates.\nThe variation in plantation softwood wood properties within the stem has been a major focus of research (Lachenbruch, Moore, and Evans 2011; Gil-Moreno, MClean, and Ridley-Ellis 2023; Evans 1994) over decades with a well established pattern of increasing basic density from pith to bark, together with the associated decrease in microfibril angle (Moore, Cown, and McKinley 2014; Pot, Viguier, and Olsson 2025a), resulting in a pattern of radial improvement in structural wood quality. In general terms this is understood in terms of juvenile (low quality) wood near the pith and mature (better quality) wood towards the bark. Consequently a reduction in rotation length, as optimal log diameters are achieved at earlier ages, results in an increase in the proportion of lower quality juvenile wood in logs (Kennedy 1995; Pot, Viguier, and Olsson 2025b). Longitudinal variation in log properties, which is markedly effected by the radial variation patterns, has also been studied extensively (Donaldson, Grace, and Downes 2004; Xu et al. 2004; Michael S. Watt et al. 2011; Waghorn, Mason, and Watt 2007; Beets et al. 2018), having the advantage that variation can more easily be partitioned into logs of varying quality according to their within-stem position. Understanding and quantifying the effects of site, rotation length and management on these longitudinal patterns of wood property change can assist the valuation of stands by basing value on additional stem features as well as volume and form.\nWood property assessment of softwood plantations in Australia is increasingly becoming a routine operation (Gendvilas, Lee, et al. 2024) as growers endeavour to understand the variability in value across their estates and gain commercial advantage from supplying logs of known properties to their customers. Typically basic density assessments via pilodyn (M. S. Watt, Garnett, and Walker 1996) or outerwood increment coring has been the common approach (Cown and Hutchison 1983). However this has been too expensive for wide spread commercial.\nResistance drilling, combined with web-based processing of traces (e.g. https://forestquality.shinyapps.io/OpenAccess/), has increasingly been utilised by growers in Australia, as research has demonstrated the low-cost, precision and accuracy of the various metrics produced (under and over-bark diameter, basic density, predicted stiffness and acoustic wave velocity) (G. Downes and Lee 2024; G. M. Downes et al. 2018; Gendvilas, Lee, et al. 2024). The focus of this effort has been to estimate or predict log stiffness, typically using basic density as a surrogate, but increasingly utilising regression models that include additional metrics extracted from the Resi trace related to AWV variance as assessed suing the FibreGen HM200 instrument (G. Downes and Lausberg 2016).",
+    "text": "Resi Sampling in a radiata pine plantation in New Zealand\nTimber production via plantation forestry is a relatively slow process that transcends multiple cycles of shifts in government policy that affect its efficiency, focus and profitability. Over recent decades general economic policy paradigms have favoured the dis-aggregation of the forest supply chain into, broadly speaking, growers, processors and manufacturers. A consequence of this has been the financial incentive for growers to shorten rotation lengths, enhancing the return on investment by a primary focus on improved stem diameter and volume growth rates.\nThe variation in plantation softwood wood properties within the stem has been a major focus of research (Lachenbruch, Moore, and Evans 2011; Gil-Moreno, MClean, and Ridley-Ellis 2023; Evans 1994) over decades with a well established pattern of increasing basic density from pith to bark, together with the associated decrease in microfibril angle (Moore, Cown, and McKinley 2014; Pot, Viguier, and Olsson 2025a), resulting in a pattern of radial improvement in structural wood quality. In general terms this is understood in terms of juvenile (low quality) wood near the pith and mature (better quality) wood towards the bark. Consequently a reduction in rotation length, as optimal log diameters are achieved at earlier ages, results in an increase in the proportion of lower quality juvenile wood in logs (Kennedy 1995; Pot, Viguier, and Olsson 2025b). Longitudinal variation in log properties, which is markedly effected by the radial variation patterns, has also been studied extensively (Donaldson, Grace, and Downes 2004; Xu et al. 2004; Michael S. Watt et al. 2011; Waghorn, Mason, and Watt 2007; Beets et al. 2018), having the advantage that variation can more easily be partitioned into logs of varying quality according to their within-stem position. Understanding and quantifying the effects of site, rotation length and management on these longitudinal patterns of wood property change can assist the valuation of stands by basing value on additional stem features as well as volume and form.\nWood property assessment of softwood plantations in Australia is increasingly becoming a routine operation (Gendvilas et al. 2024) as growers endeavour to understand the variability in value across their estates and gain commercial advantage from supplying logs of known properties to their customers. Typically basic density assessments via pilodyn (M. S. Watt, Garnett, and Walker 1996) or outerwood increment coring has been the common approach (Cown and Hutchison 1983). However this has been too expensive for wide spread commercial.\nResistance drilling, combined with web-based processing of traces (e.g. https://forestquality.shinyapps.io/OpenAccess/), has increasingly been utilised by growers in Australia, as research has demonstrated the low-cost, precision and accuracy of the various metrics produced (under and over-bark diameter, basic density, predicted stiffness and acoustic wave velocity) (G. Downes and Lee 2024; G. M. Downes et al. 2018; Gendvilas et al. 2024). The focus of this effort has been to estimate or predict log stiffness, typically using basic density as a surrogate, but increasingly utilising regression models that include additional metrics extracted from the Resi trace related to AWV variance as assessed suing the FibreGen HM200 instrument (G. Downes and Lausberg 2016).",
     "crumbs": [
       "Introduction",
       "Resistance Drilling"
     ]
   },
   {
-    "objectID": "Resistance-Drilling.html#background",
-    "href": "Resistance-Drilling.html#background",
-    "title": "Resistance drilling",
+    "objectID": "NIR-basics.html",
+    "href": "NIR-basics.html",
+    "title": "Forest Quality Pty. Ltd.",
     "section": "",
-    "text": "Timber production via plantation forestry is a relatively slow process that transcends multiple cycles of shifts in government policy that affect its efficiency, focus and profitability. Over recent decades general economic policy paradigms have favoured the dis-aggregation of the forest supply chain into, broadly speaking, growers, processors and manufacturers. A consequence of this has been the financial incentive for growers to shorten rotation lengths, enhancing the return on investment by a primary focus on improved stem diameter and volume growth rates.\nThe variation in plantation softwood wood properties within the stem has been a major focus of research (Lachenbruch, Moore, and Evans 2011; Gil-Moreno, MClean, and Ridley-Ellis 2023; Evans 1994) over decades with a well established pattern of increasing basic density from pith to bark, together with the associated decrease in microfibril angle (Moore, Cown, and McKinley 2014; Pot, Viguier, and Olsson 2025a), resulting in a pattern of radial improvement in structural wood quality. In general terms this is understood in terms of juvenile (low quality) wood near the pith and mature (better quality) wood towards the bark. Consequently a reduction in rotation length, as optimal log diameters are achieved at earlier ages, results in an increase in the proportion of lower quality juvenile wood in logs (Kennedy 1995; Pot, Viguier, and Olsson 2025b). Longitudinal variation in log properties, which is markedly effected by the radial variation patterns, has also been studied extensively (Donaldson, Grace, and Downes 2004; Xu et al. 2004; Michael S. Watt et al. 2011; Waghorn, Mason, and Watt 2007; Beets et al. 2018), having the advantage that variation can more easily be partitioned into logs of varying quality according to their within-stem position. Understanding and quantifying the effects of site, rotation length and management on these longitudinal patterns of wood property change can assist the valuation of stands by basing value on additional stem features as well as volume and form.\nWood property assessment of softwood plantations in Australia is increasingly becoming a routine operation (Gendvilas, Lee, et al. 2024) as growers endeavour to understand the variability in value across their estates and gain commercial advantage from supplying logs of known properties to their customers. Typically basic density assessments via pilodyn (M. S. Watt, Garnett, and Walker 1996) or outerwood increment coring has been the common approach (Cown and Hutchison 1983). However this has been too expensive for wide spread commercial.\nResistance drilling, combined with web-based processing of traces (e.g. https://forestquality.shinyapps.io/OpenAccess/), has increasingly been utilised by growers in Australia, as research has demonstrated the low-cost, precision and accuracy of the various metrics produced (under and over-bark diameter, basic density, predicted stiffness and acoustic wave velocity) (G. Downes and Lee 2024; G. M. Downes et al. 2018; Gendvilas, Lee, et al. 2024). The focus of this effort has been to estimate or predict log stiffness, typically using basic density as a surrogate, but increasingly utilising regression models that include additional metrics extracted from the Resi trace related to AWV variance as assessed suing the FibreGen HM200 instrument (G. Downes and Lausberg 2016).",
+    "text": "Text here",
     "crumbs": [
       "Introduction",
-      "Resistance Drilling"
+      "NIR analysis",
+      "NIR basics"
     ]
   },
   {
-    "objectID": "Resistance-Drilling.html#quantitative-trace-processing",
-    "href": "Resistance-Drilling.html#quantitative-trace-processing",
-    "title": "Resistance drilling",
-    "section": "Quantitative trace processing",
-    "text": "Quantitative trace processing\nFQ began working quantitatively with resistance drilling using the IML PD-400 instrument (https://imlaustralia.com/product/iml-powerdrill/). The objective was to predict acoustic wave velocity (HM200: https://www.fibre-gen.com/hitman-hm220) that was typically used by New Zealand industry to assess log stiffness in radiata pine. Others have also pursued the relationship between Resi data and wood stiffness (Sharapov et al. 2019). However it became obvious that, if commercial application of the technology was going to be cost-effective, the processing of the individual traces produced by the IML PD series drills, needed to be simple, fast and robust, requiring minimal or no user involvement.\nAt FQ we set about developing and testing a web platform application that would do all trace processing and data extraction that a commercial user would require and more. The result has been that resistance drilling combined with our web platform services for wood property assessment has now become;\n\nroutine in much of the Australian softwood and hardwood estate.\nused in many research and commercial trials demonstrating the quantitative link between standing tree and product\n\n(G. M. Downes et al. 2018; Geoffrey M. Downes et al. 2022; G. Downes and Lausberg 2016; G. Downes et al. 2023; Gendvilas, Lee, et al. 2024; Gendvilas, Downes, et al. 2024; Gendvilas et al. 2020)\n\nbecoming incorporated into growth and yield tables\nadopted in an increasing range of countries including NewZealand, Indonesia, China and Brazil\n\n\n\n\nWeb platform user interface",
-    "crumbs": [
-      "Introduction",
-      "Resistance Drilling"
-    ]
-  },
-  {
-    "objectID": "NIR-Analysis.html",
-    "href": "NIR-Analysis.html",
-    "title": "NIR Analyses",
+    "objectID": "NIR-basics.html#nir-basics",
+    "href": "NIR-basics.html#nir-basics",
+    "title": "Forest Quality Pty. Ltd.",
     "section": "",
-    "text": "Growing eucalypts for pulp depends on growing merchantable volume as quickly as possible. The mass of pulp produced from each unit area of forest depends on\n\nMerchantable volume\nWood density\nPulp yield\n\n​Pulp yield is the proportion of biomass that remains at the end of the pulping process (Downes et al. 1997).\n​For a pulp mill processing 4 million green tonnes of wood per year, an increase in Kraft pulp yield (KPY) of 1% equates to ~20,000 tonnes of extra pulp for no additional growing or processing costs.\nUnlike volume and density, KPY has been slow and expensive to measure. Consequently both forest growers and pulp manufacturers have had limited opportunity to include it in managing their value chain.\n​NIR prediction of KPY is inexpensive, requires only small (1 gram or more) samples.",
+    "text": "Text here",
     "crumbs": [
       "Introduction",
-      "NIR analysis"
+      "NIR analysis",
+      "NIR basics"
     ]
   },
   {
-    "objectID": "NIR-Analysis.html#the-value-proposition",
-    "href": "NIR-Analysis.html#the-value-proposition",
-    "title": "NIR Analyses",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Forest Quality Pty Ltd",
     "section": "",
-    "text": "Growing eucalypts for pulp depends on growing merchantable volume as quickly as possible. The mass of pulp produced from each unit area of forest depends on\n\nMerchantable volume\nWood density\nPulp yield\n\n​Pulp yield is the proportion of biomass that remains at the end of the pulping process (Downes et al. 1997).\n​For a pulp mill processing 4 million green tonnes of wood per year, an increase in Kraft pulp yield (KPY) of 1% equates to ~20,000 tonnes of extra pulp for no additional growing or processing costs.\nUnlike volume and density, KPY has been slow and expensive to measure. Consequently both forest growers and pulp manufacturers have had limited opportunity to include it in managing their value chain.\n​NIR prediction of KPY is inexpensive, requires only small (1 gram or more) samples.",
-    "crumbs": [
-      "Introduction",
-      "NIR analysis"
-    ]
+    "text": "Increment Core sampling\n\n\n\n\n\n\n\nResi sampling\n\n\n\n\n\n\n\nBruker MPA\n\n\n\n\n\n\nForest Quality is a research and development company aimed at facilitating the evaluation of wood quality and improving the value of the standing tree. Based in southern Tasmania, Australia, we provide the following services\n\nWeb-based processing platforms where users can process resistance drill traces taken using the IML PD series power drills to assess\n\nbasic density\npredicted stiffness\nover and under bark diameter\nbark thickness\nradial variation in density and predicted stiffness\n\nNIR analysis for the prediction of the following properties in eucalypt samples\n\nKraft pulp yield\nCellulose content\nBasic density\nLignin content\nExtractives\n\nAnalysis and reporting services of wood quality assessments utilising R and reported using Quarto.\n\n\n\nSite mean density maps"
   },
   {
-    "objectID": "NIR-Analysis.html#low-cost-pulp-yield-assessment",
-    "href": "NIR-Analysis.html#low-cost-pulp-yield-assessment",
-    "title": "NIR Analyses",
-    "section": "Low cost Pulp Yield assessment",
-    "text": "Low cost Pulp Yield assessment\nNear Infra Red (NIR) spectroscopy is widely used in agriculture and manufacturing. Application to KPY measurement  spans two decades of R&D, demonstrating its ability to provide precise measurements of KPY in samples as small as 0.5 gm. \nNumerous studies have shown NIR offers\n​Low cost measurement\n\nExpanded application of traditional analyses\nEfficient ranking of trees and sites\nPrecise KPY values that are highly heritable\n\nNIR can be used to measure a range of commercially valuable wood properties\n\n Pulp Yield \n Density \n Dry Matter content \n Stiffness \n Microfibril Angle\n\nThe biggest issue is trusting the values that NIR measurement generates. \nConsequently any application of NIR requires a means of quality control until such time as the user has confidence that the values are precise.  This can only occur through repeated experience.\nThe development of NIR calibrations is therefore an iterative process.  Cycles of development and validation are required until precise and accurate predictions are consistently obtained.  This process applies to both the type of NIR application being developed and the individual wood property being measured.\nNear Infra Red spectroscopy is a multi-variate statistical approach to obtain qualitative and/or quantitative information about the properties of an organic substance based on its absorption of light in the near infra red range (typically 1000 – 2500 nm)",
+    "objectID": "About.html#background",
+    "href": "About.html#background",
+    "title": "About us",
+    "section": "Background",
+    "text": "Background\nAfter leaving CSIRO in 2012 Geoff Downes established FQ as a Research, Development and Extension company with a view to develop and supply wood quality assessment services to the forest industry. Through many years of working with industry and involvement in non-destructive wood property measurement (SilviScan, near infra red spectroscopy (NIRS), standing tree and log acoustics) the need was still there for an assessment approach that was sufficiently low cost to allow broad-scale, routine application in forest evaluation. Since its inception, FQ has offered routine NIR analytical services, investing in the establishment of a Bruker MPA instrument utlising well-tested calibrations for the prediction of kraft pulp yield and cellulose content in plantation eucalypts. Since then we have undertaken the evaluation of over 30 thousand wood meal samples for Australian eucalypt growers and this data has provided an important input into the eucalypt breeding programmes of our industry.\nIn 2015 the opportunity arose to explore the application of resistance drilling to the estimation of softwood log quality through relating data to log stiffness (MOE), an important indicator of resultant board properties post processing. Resistance drilling (IML PD series power drills; RinnTech ResistographTM) allows the measurement of a standing tree with high resolution data describing average wood properties (primarily basic density) and their radial patterns of variation, taking only seconds to sample a tree. To facilitate its commercial use, we developed a web-based processing platform (e.g https://forestquality.shinyapps.io/OpenAccess/) that allowed the drill data to be uploaded, processed and key metrics of growth (over and under bark diameters) and wood properties (basic density and stiffness) to be predicted.\nAfter multiple studies developing sampling protocols and establishing the accuracy, precision and robustness of the measures, resistance drilling is rapidly establishing itself as a routine commercial operation, contributing to the communication between growers and processors of logs regarding quality attributes based on density and stiffness.\nOur IP and software is being utilised by many softwood growers and sawmill processors across Australia, as well as companies in Indonesia, China, South Africa, Brazil and New Zealand."
+  },
+  {
+    "objectID": "About.html#contact",
+    "href": "About.html#contact",
+    "title": "About us",
+    "section": "Contact",
+    "text": "Contact\nDr Geoff Downes FIAWS\n\nemail: geoff.downes@forestquality.com\nPostal Address: PO Box 293, Huonville, Tasmaniam 7113, Australia\nPhone: (+61) 488 023 628\nhttps://www.researchgate.net/profile/Geoffrey-Downes"
+  },
+  {
+    "objectID": "Data-Analysis.html",
+    "href": "Data-Analysis.html",
+    "title": "Data Analyses",
+    "section": "",
+    "text": "## Data collection: field work",
     "crumbs": [
       "Introduction",
-      "NIR analysis"
+      "Data analysis"
     ]
   },
   {
@@ -99,48 +100,60 @@
     ]
   },
   {
-    "objectID": "About.html#background",
-    "href": "About.html#background",
-    "title": "About us",
-    "section": "Background",
-    "text": "Background\nAfter leaving CSIRO in 2012 Geoff Downes established FQ as a Research, Development and Extension company with a view to develop and supply wood quality assessment services to the forest industry. Through many years of working with industry and involvement in non-destructive wood property measurement (SilviScan, near infra red spectroscopy (NIRS), standing tree and log acoustics) the need was still there for an assessment approach that was sufficiently low cost to allow broad-scale, routine application in forest evaluation. Since its inception, FQ has offered routine NIR analytical services, investing in the establishment of a Bruker MPA instrument utlising well-tested calibrations for the prediction of kraft pulp yield and cellulose content in plantation eucalypts. Since then we have undertaken the evaluation of over 30 thousand wood meal samples for Australian eucalypt growers and this data has provided an important input into the eucalypt breeding programmes of our industry.\nIn 2015 the opportunity arose to explore the application of resistance drilling to the estimation of softwood log quality through relating data to log stiffness (MOE), an important indicator of resultant board properties post processing. Resistance drilling (IML PD series power drills; RinnTech ResistographTM) allows the measurement of a standing tree with high resolution data describing average wood properties (primarily basic density) and their radial patterns of variation, taking only seconds to sample a tree. To facilitate its commercial use, we developed a web-based processing platform (e.g https://forestquality.shinyapps.io/OpenAccess/) that allowed the drill data to be uploaded, processed and key metrics of growth (over and under bark diameters) and wood properties (basic density and stiffness) to be predicted.\nAfter multiple studies developing sampling protocols and establishing the accuracy, precision and robustness of the measures, resistance drilling is rapidly establishing itself as a routine commercial operation, contributing to the communication between growers and processors of logs regarding quality attributes based on density and stiffness.\nOur IP and software is being utilised by many softwood growers and sawmill processors across Australia, as well as companies in Indonesia, China, South Africa, Brazil and New Zealand."
-  },
-  {
-    "objectID": "About.html#contact",
-    "href": "About.html#contact",
-    "title": "About us",
-    "section": "Contact",
-    "text": "Contact\nDr Geoff Downes FIAWS\n\nemail: geoff.downes@forestquality.com\nPostal Address: PO Box 293, Huonville, Tasmaniam 7113, Australia\nPhone: (+61) 488 023 628\nhttps://www.researchgate.net/profile/Geoffrey-Downes"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Forest Quality Pty Ltd",
+    "objectID": "NIR-Analysis.html",
+    "href": "NIR-Analysis.html",
+    "title": "NIR Analyses",
     "section": "",
-    "text": "Forest Quality is a research and development company aimed at facilitating the evaluation of wood quality and improving the value of the standing tree. Based in southern Tasmania, Australia, we provide the following services\n\nWeb-based processing platforms where users can process resistance drill traces taken using the IML PD series power drills to assess\n\nbasic density\npredicted stiffness\nover and under bark diameter\nbark thickness\nradial variation in density and predicted stiffness\n\nNIR analysis for the prediction of the following properties in eucalypt samples\n\nKraft pulp yield\nCellulose content\nBasic density\nLignin content\nExtractives\n\nAnalysis and reporting services of wood quality assessments utilising R and reported using Quarto.\n\n\n\n\n\n\n\n\n\n\nIncrement Core sampling\n\n\n\n\n\n\n\nResi sampling\n\n\n\n\n\n\n\nSite mean density maps"
-  },
-  {
-    "objectID": "NIR-basics.html",
-    "href": "NIR-basics.html",
-    "title": "Forest Quality Pty. Ltd.",
-    "section": "",
-    "text": "Text here",
+    "text": "Growing eucalypts for pulp depends on growing merchantable volume as quickly as possible. The mass of pulp produced from each unit area of forest depends on\n\nMerchantable volume\nWood density\nPulp yield\n\n​Pulp yield is the proportion of biomass that remains at the end of the pulping process (GM Downes et al. 1997).\n​For a pulp mill processing 4 million green tonnes of wood per year, an increase in Kraft pulp yield (KPY) of 1% equates to ~20,000 tonnes of extra pulp for no additional growing or processing costs.\nUnlike volume and density, KPY has been slow and expensive to measure. Consequently both forest growers and pulp manufacturers have had limited opportunity to include it in managing their value chain.\n​NIR prediction of KPY is inexpensive, requires only small (1 gram or more) samples.",
     "crumbs": [
       "Introduction",
-      "NIR analysis",
-      "NIR basics"
+      "NIR analysis"
     ]
   },
   {
-    "objectID": "NIR-basics.html#nir-basics",
-    "href": "NIR-basics.html#nir-basics",
-    "title": "Forest Quality Pty. Ltd.",
+    "objectID": "NIR-Analysis.html#the-value-proposition",
+    "href": "NIR-Analysis.html#the-value-proposition",
+    "title": "NIR Analyses",
     "section": "",
-    "text": "Text here",
+    "text": "Growing eucalypts for pulp depends on growing merchantable volume as quickly as possible. The mass of pulp produced from each unit area of forest depends on\n\nMerchantable volume\nWood density\nPulp yield\n\n​Pulp yield is the proportion of biomass that remains at the end of the pulping process (GM Downes et al. 1997).\n​For a pulp mill processing 4 million green tonnes of wood per year, an increase in Kraft pulp yield (KPY) of 1% equates to ~20,000 tonnes of extra pulp for no additional growing or processing costs.\nUnlike volume and density, KPY has been slow and expensive to measure. Consequently both forest growers and pulp manufacturers have had limited opportunity to include it in managing their value chain.\n​NIR prediction of KPY is inexpensive, requires only small (1 gram or more) samples.",
     "crumbs": [
       "Introduction",
-      "NIR analysis",
-      "NIR basics"
+      "NIR analysis"
+    ]
+  },
+  {
+    "objectID": "NIR-Analysis.html#low-cost-pulp-yield-assessment",
+    "href": "NIR-Analysis.html#low-cost-pulp-yield-assessment",
+    "title": "NIR Analyses",
+    "section": "Low cost Pulp Yield assessment",
+    "text": "Low cost Pulp Yield assessment\nNear Infra Red (NIR) spectroscopy is widely used in agriculture and manufacturing. Application to KPY measurement  spans two decades of R&D, demonstrating its ability to provide precise measurements of KPY in samples as small as 0.5 gm. \nNumerous studies have shown NIR offers\n​Low cost measurement\n\nExpanded application of traditional analyses\nEfficient ranking of trees and sites\nPrecise KPY values that are highly heritable\n\nNIR can be used to measure a range of commercially valuable wood properties\n\nPulp Yield (G. M. Downes et al. 2011; Geoff Downes, Meder, and Harwood 2010; Geoffrey M. Downes et al. 2010, 2012; GM Downes et al. 2009)\nDensity  (G. M. Downes et al. 2011)\nDry Matter content (Geoff Downes et al. 2009)\nStiffness (Geoffrey M. Downes et al. 2014; Wentzel-Vietheer et al. 2013)\nMicrofibril Angle (Geoffrey M. Downes et al. 2014)\nNon-recoverable collapse (Geoffrey M. Downes et al. 2014; Wentzel-Vietheer et al. 2013)\n\nThe biggest issue is trusting the values that NIR measurement generates. \nConsequently any application of NIR requires a means of quality control until such time as the user has confidence that the values are precise.  This can only occur through repeated experience.\nThe development of NIR calibrations is therefore an iterative process.  Cycles of development and validation are required until precise and accurate predictions are consistently obtained.  This process applies to both the type of NIR application being developed and the individual wood property being measured.\nNear Infra Red spectroscopy is a multi-variate statistical approach to obtain qualitative and/or quantitative information about the properties of an organic substance based on its absorption of light in the near infra red range (typically 1000 – 2500 nm)",
+    "crumbs": [
+      "Introduction",
+      "NIR analysis"
+    ]
+  },
+  {
+    "objectID": "Quantitative-Analysis.html",
+    "href": "Quantitative-Analysis.html",
+    "title": "Forest Quality Pty. Ltd.",
+    "section": "",
+    "text": "Web platform user interface",
+    "crumbs": [
+      "Introduction",
+      "Resistance Drilling",
+      "Trace processing"
+    ]
+  },
+  {
+    "objectID": "Quantitative-Analysis.html#trace-processing",
+    "href": "Quantitative-Analysis.html#trace-processing",
+    "title": "Forest Quality Pty. Ltd.",
+    "section": "Trace processing",
+    "text": "Trace processing\nFQ began working quantitatively with resistance drilling using the IML PD-400 instrument (https://imlaustralia.com/product/iml-powerdrill/). The objective was to predict acoustic wave velocity (HM200: https://www.fibre-gen.com/hitman-hm220) that was typically used by New Zealand industry to assess log stiffness in radiata pine. Others have also pursued the relationship between Resi data and wood stiffness (Sharapov et al. 2019). However it became obvious that, if commercial application of the technology was going to be cost-effective, the processing of the individual traces produced by the IML PD series drills, needed to be simple, fast and robust, requiring minimal or no user involvement.\nAt FQ we set about developing and testing a web platform application that would do all trace processing and data extraction that a commercial user would require and more. The result has been that resistance drilling combined with our web platform services for wood property assessment has now become;\n\nroutine in much of the Australian softwood and hardwood estate.\nused in many research and commercial trials demonstrating the quantitative link between standing tree and product\n\n(G. M. Downes et al. 2018; Geoffrey M. Downes et al. 2022; G. Downes and Lausberg 2016; G. Downes et al. 2023; Gendvilas, Lee, et al. 2024; Gendvilas, Downes, et al. 2024; Gendvilas et al. 2020)\n\nbecoming incorporated into growth and yield tables\nadopted in an increasing range of countries including NewZealand, Indonesia, China and Brazil",
+    "crumbs": [
+      "Introduction",
+      "Resistance Drilling",
+      "Trace processing"
     ]
   }
 ]

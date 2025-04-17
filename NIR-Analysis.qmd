@@ -33,11 +33,12 @@ Numerous studies have shown NIR offers
 
 NIR can be used to measure a range of commercially valuable wood properties
 
--    Pulp Yield 
--    Density 
--    Dry Matter content 
--    Stiffness 
--    Microfibril Angle
+-   Pulp Yield [@downes2011; @downes2010; @downes2010a; @downes2009; @downes2012]
+-   Density  [@downes2011]
+-   Dry Matter content [@downes2009a]
+-   Stiffness [@downes2014; @wentzel-vietheer2013]
+-   Microfibril Angle [@downes2014]
+-   Non-recoverable collapse [@downes2014; @wentzel-vietheer2013]
 
 The biggest issue is trusting the values that NIR measurement generates. 
 

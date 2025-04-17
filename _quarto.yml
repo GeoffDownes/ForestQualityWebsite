@@ -9,8 +9,10 @@ website:
     style: "docked"
     search: true
     contents: 
-    - text: "Resistance Drilling"
+    - section: "Resistance Drilling"
       href: Resistance-Drilling.qmd
+      contents: 
+          - Quantitative-Analysis.qmd
     - section: "NIR analysis"
       href: NIR-Analysis.qmd
       contents:

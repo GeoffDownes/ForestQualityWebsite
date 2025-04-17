@@ -50,7 +50,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./NIR-Analysis.html" rel="next">
+<link href="./Quantitative-Analysis.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -153,21 +153,32 @@ div.csl-indent {
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Resistance-Drilling.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Resistance Drilling</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./NIR-Analysis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NIR analysis</span></a>
+            <a href="./Resistance-Drilling.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Resistance Drilling</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Quantitative-Analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Trace processing</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./NIR-Analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NIR analysis</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./NIR-basics.html" class="sidebar-item-text sidebar-link">
@@ -192,9 +203,7 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#quantitative-trace-processing" id="toc-quantitative-trace-processing" class="nav-link" data-scroll-target="#quantitative-trace-processing">Quantitative trace processing</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
@@ -220,33 +229,20 @@ div.csl-indent {
 </header>
 
 
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>Timber production via plantation forestry is a relatively slow process that transcends multiple cycles of shifts in government policy that affect its efficiency, focus and profitability. Over recent decades general economic policy paradigms have favoured the dis-aggregation of the forest supply chain into, broadly speaking, growers, processors and manufacturers. A consequence of this has been the financial incentive for growers to shorten rotation lengths, enhancing the return on investment by a primary focus on improved stem diameter and volume growth rates.</p>
-<p>The variation in plantation softwood wood properties within the stem has been a major focus of research <span class="citation" data-cites="lachenbruch2011 gil-moreno2023 evans1994">(<a href="#ref-lachenbruch2011" role="doc-biblioref">Lachenbruch, Moore, and Evans 2011</a>; <a href="#ref-gil-moreno2023" role="doc-biblioref">Gil-Moreno, MClean, and Ridley-Ellis 2023</a>; <a href="#ref-evans1994" role="doc-biblioref">Evans 1994</a>)</span> over decades with a well established pattern of increasing basic density from pith to bark, together with the associated decrease in microfibril angle <span class="citation" data-cites="moore2014 pot2025">(<a href="#ref-moore2014" role="doc-biblioref">Moore, Cown, and McKinley 2014</a>; <a href="#ref-pot2025" role="doc-biblioref">Pot, Viguier, and Olsson 2025a</a>)</span>, resulting in a pattern of radial improvement in structural wood quality. In general terms this is understood in terms of juvenile (low quality) wood near the pith and mature (better quality) wood towards the bark. Consequently a reduction in rotation length, as optimal log diameters are achieved at earlier ages, results in an increase in the proportion of lower quality juvenile wood in logs <span class="citation" data-cites="kennedy1995 pot2025a">(<a href="#ref-kennedy1995" role="doc-biblioref">Kennedy 1995</a>; <a href="#ref-pot2025a" role="doc-biblioref">Pot, Viguier, and Olsson 2025b</a>)</span>. Longitudinal variation in log properties, which is markedly effected by the radial variation patterns, has also been studied extensively <span class="citation" data-cites="donaldson2004 xu2004 watt2011 waghorn2007 beets2018">(<a href="#ref-donaldson2004" role="doc-biblioref">Donaldson, Grace, and Downes 2004</a>; <a href="#ref-xu2004" role="doc-biblioref">Xu et al. 2004</a>; <a href="#ref-watt2011" role="doc-biblioref">Michael S. Watt et al. 2011</a>; <a href="#ref-waghorn2007" role="doc-biblioref">Waghorn, Mason, and Watt 2007</a>; <a href="#ref-beets2018" role="doc-biblioref">Beets et al. 2018</a>)</span>, having the advantage that variation can more easily be partitioned into logs of varying quality according to their within-stem position. Understanding and quantifying the effects of site, rotation length and management on these longitudinal patterns of wood property change can assist the valuation of stands by basing value on additional stem features as well as volume and form.</p>
-<p>Wood property assessment of softwood plantations in Australia is increasingly becoming a routine operation <span class="citation" data-cites="gendvilas2024a">(<a href="#ref-gendvilas2024a" role="doc-biblioref">Gendvilas, Lee, et al. 2024</a>)</span> as growers endeavour to understand the variability in value across their estates and gain commercial advantage from supplying logs of known properties to their customers. Typically basic density assessments via pilodyn <span class="citation" data-cites="Watt1996">(<a href="#ref-Watt1996" role="doc-biblioref">M. S. Watt, Garnett, and Walker 1996</a>)</span> or outerwood increment coring has been the common approach <span class="citation" data-cites="Cown1983">(<a href="#ref-Cown1983" role="doc-biblioref">Cown and Hutchison 1983</a>)</span>. However this has been too expensive for wide spread commercial.</p>
-<p>Resistance drilling, combined with web-based processing of traces (e.g.&nbsp;<a href="https://forestquality.shinyapps.io/OpenAccess/" class="uri">https://forestquality.shinyapps.io/OpenAccess/</a>), has increasingly been utilised by growers in Australia, as research has demonstrated the low-cost, precision and accuracy of the various metrics produced (under and over-bark diameter, basic density, predicted stiffness and acoustic wave velocity) <span class="citation" data-cites="RN48 downes2018 gendvilas2024a">(<a href="#ref-RN48" role="doc-biblioref">G. Downes and Lee 2024</a>; <a href="#ref-downes2018" role="doc-biblioref">G. M. Downes et al. 2018</a>; <a href="#ref-gendvilas2024a" role="doc-biblioref">Gendvilas, Lee, et al. 2024</a>)</span>. The focus of this effort has been to estimate or predict log stiffness, typically using basic density as a surrogate, but increasingly utilising regression models that include additional metrics extracted from the Resi trace related to AWV variance as assessed suing the FibreGen HM200 instrument <span class="citation" data-cites="Downes2016">(<a href="#ref-Downes2016" role="doc-biblioref">G. Downes and Lausberg 2016</a>)</span>.</p>
-</section>
-<section id="quantitative-trace-processing" class="level2">
-<h2 class="anchored" data-anchor-id="quantitative-trace-processing">Quantitative trace processing</h2>
-<p>FQ began working quantitatively with resistance drilling using the IML PD-400 instrument (<a href="https://imlaustralia.com/product/iml-powerdrill/" class="uri">https://imlaustralia.com/product/iml-powerdrill/</a>). The objective was to predict acoustic wave velocity (HM200: <a href="https://www.fibre-gen.com/hitman-hm220" class="uri">https://www.fibre-gen.com/hitman-hm220</a>) that was typically used by New Zealand industry to assess log stiffness in radiata pine. Others have also pursued the relationship between Resi data and wood stiffness <span class="citation" data-cites="sharapov2019">(<a href="#ref-sharapov2019" role="doc-biblioref">Sharapov et al. 2019</a>)</span>. However it became obvious that, if commercial application of the technology was going to be cost-effective, the processing of the individual traces produced by the IML PD series drills, needed to be simple, fast and robust, requiring minimal or no user involvement.</p>
-<p>At FQ we set about developing and testing a web platform application that would do all trace processing and data extraction that a commercial user would require and more. The result has been that resistance drilling combined with our web platform services for wood property assessment has now become;</p>
-<ul>
-<li>routine in much of the Australian softwood and hardwood estate.</li>
-<li>used in many research and commercial trials demonstrating the quantitative link between standing tree and product
-<ul>
-<li><span class="citation" data-cites="downes2018 downes2022 Downes2016 RN32 gendvilas2024a RN52 gendvilas2020">(<a href="#ref-downes2018" role="doc-biblioref">G. M. Downes et al. 2018</a>; <a href="#ref-downes2022" role="doc-biblioref">Geoffrey M. Downes et al. 2022</a>; <a href="#ref-Downes2016" role="doc-biblioref">G. Downes and Lausberg 2016</a>; <a href="#ref-RN32" role="doc-biblioref">G. Downes et al. 2023</a>; <a href="#ref-gendvilas2024a" role="doc-biblioref">Gendvilas, Lee, et al. 2024</a>; <a href="#ref-RN52" role="doc-biblioref">Gendvilas, Downes, et al. 2024</a>; <a href="#ref-gendvilas2020" role="doc-biblioref">Gendvilas et al. 2020</a>)</span></li>
-</ul></li>
-<li>becoming incorporated into growth and yield tables</li>
-<li>adopted in an increasing range of countries including NewZealand, Indonesia, China and Brazil</li>
-</ul>
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><a href="./images/WebPlatformGUI.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Web platform user interface"><img src="./images/WebPlatformGUI.png" class="img-fluid figure-img" style="width:100.0%" alt="Web platform user interface"></a></p>
-<figcaption>Web platform user interface</figcaption>
+<figcaption>Resi Sampling in a radiata pine plantation in New Zealand</figcaption>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><a href="./images/Resi_Marco.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Resi Sampling in a radiata pine plantation in New Zealand"><img src="./images/Resi_Marco.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img" style="width:5in" alt="Resi Sampling in a radiata pine plantation in New Zealand"></a></p>
 </figure>
 </div>
-</section>
+</figure>
+</div>
+<p>Timber production via plantation forestry is a relatively slow process that transcends multiple cycles of shifts in government policy that affect its efficiency, focus and profitability. Over recent decades general economic policy paradigms have favoured the dis-aggregation of the forest supply chain into, broadly speaking, growers, processors and manufacturers. A consequence of this has been the financial incentive for growers to shorten rotation lengths, enhancing the return on investment by a primary focus on improved stem diameter and volume growth rates.</p>
+<p>The variation in plantation softwood wood properties within the stem has been a major focus of research <span class="citation" data-cites="lachenbruch2011 gil-moreno2023 evans1994">(<a href="#ref-lachenbruch2011" role="doc-biblioref">Lachenbruch, Moore, and Evans 2011</a>; <a href="#ref-gil-moreno2023" role="doc-biblioref">Gil-Moreno, MClean, and Ridley-Ellis 2023</a>; <a href="#ref-evans1994" role="doc-biblioref">Evans 1994</a>)</span> over decades with a well established pattern of increasing basic density from pith to bark, together with the associated decrease in microfibril angle <span class="citation" data-cites="moore2014 pot2025">(<a href="#ref-moore2014" role="doc-biblioref">Moore, Cown, and McKinley 2014</a>; <a href="#ref-pot2025" role="doc-biblioref">Pot, Viguier, and Olsson 2025a</a>)</span>, resulting in a pattern of radial improvement in structural wood quality. In general terms this is understood in terms of juvenile (low quality) wood near the pith and mature (better quality) wood towards the bark. Consequently a reduction in rotation length, as optimal log diameters are achieved at earlier ages, results in an increase in the proportion of lower quality juvenile wood in logs <span class="citation" data-cites="kennedy1995 pot2025a">(<a href="#ref-kennedy1995" role="doc-biblioref">Kennedy 1995</a>; <a href="#ref-pot2025a" role="doc-biblioref">Pot, Viguier, and Olsson 2025b</a>)</span>. Longitudinal variation in log properties, which is markedly effected by the radial variation patterns, has also been studied extensively <span class="citation" data-cites="donaldson2004 xu2004 watt2011 waghorn2007 beets2018">(<a href="#ref-donaldson2004" role="doc-biblioref">Donaldson, Grace, and Downes 2004</a>; <a href="#ref-xu2004" role="doc-biblioref">Xu et al. 2004</a>; <a href="#ref-watt2011" role="doc-biblioref">Michael S. Watt et al. 2011</a>; <a href="#ref-waghorn2007" role="doc-biblioref">Waghorn, Mason, and Watt 2007</a>; <a href="#ref-beets2018" role="doc-biblioref">Beets et al. 2018</a>)</span>, having the advantage that variation can more easily be partitioned into logs of varying quality according to their within-stem position. Understanding and quantifying the effects of site, rotation length and management on these longitudinal patterns of wood property change can assist the valuation of stands by basing value on additional stem features as well as volume and form.</p>
+<p>Wood property assessment of softwood plantations in Australia is increasingly becoming a routine operation <span class="citation" data-cites="gendvilas2024a">(<a href="#ref-gendvilas2024a" role="doc-biblioref">Gendvilas et al. 2024</a>)</span> as growers endeavour to understand the variability in value across their estates and gain commercial advantage from supplying logs of known properties to their customers. Typically basic density assessments via pilodyn <span class="citation" data-cites="Watt1996">(<a href="#ref-Watt1996" role="doc-biblioref">M. S. Watt, Garnett, and Walker 1996</a>)</span> or outerwood increment coring has been the common approach <span class="citation" data-cites="Cown1983">(<a href="#ref-Cown1983" role="doc-biblioref">Cown and Hutchison 1983</a>)</span>. However this has been too expensive for wide spread commercial.</p>
+<p>Resistance drilling, combined with web-based processing of traces (e.g.&nbsp;<a href="https://forestquality.shinyapps.io/OpenAccess/" class="uri">https://forestquality.shinyapps.io/OpenAccess/</a>), has increasingly been utilised by growers in Australia, as research has demonstrated the low-cost, precision and accuracy of the various metrics produced (under and over-bark diameter, basic density, predicted stiffness and acoustic wave velocity) <span class="citation" data-cites="RN48 downes2018 gendvilas2024a">(<a href="#ref-RN48" role="doc-biblioref">G. Downes and Lee 2024</a>; <a href="#ref-downes2018" role="doc-biblioref">G. M. Downes et al. 2018</a>; <a href="#ref-gendvilas2024a" role="doc-biblioref">Gendvilas et al. 2024</a>)</span>. The focus of this effort has been to estimate or predict log stiffness, typically using basic density as a surrogate, but increasingly utilising regression models that include additional metrics extracted from the Resi trace related to AWV variance as assessed suing the FibreGen HM200 instrument <span class="citation" data-cites="Downes2016">(<a href="#ref-Downes2016" role="doc-biblioref">G. Downes and Lausberg 2016</a>)</span>.</p>
 <section id="references" class="level2">
 
 
@@ -267,12 +263,6 @@ Donaldson, Lloyd A., Jenny Grace, and Geoff M. Downes. 2004. <span>“WITHIN-TRE
 <div id="ref-downes2018" class="csl-entry" role="listitem">
 Downes, G. M., M. Lausberg, B. M. Potts, D. L. Pilbeam, M. Bird, and B. Bradshaw. 2018. <span>“Application of the IML Resistograph to the Infield Assessment of Basic Density in Plantation Eucalypts.”</span> <em>Australian Forestry</em> 81 (3): 177–85. <a href="https://doi.org/10.1080/00049158.2018.1500676">https://doi.org/10.1080/00049158.2018.1500676</a>.
 </div>
-<div id="ref-downes2022" class="csl-entry" role="listitem">
-Downes, Geoffrey M., Jonathan J. Harrington, David M. Drew, Marco Lausberg, Phillip Muyambo, Duncan Watt, and David J. Lee. 2022. <span>“A Comparison of Radial Wood Property Variation on Pinus Radiata Between an IML PD-400 <span>‘</span>Resi<span>’</span> Instrument and Increment Cores Analysed by SilviScan.”</span> <em>Forests</em> 13 (5): 751. <a href="https://doi.org/10.3390/f13050751">https://doi.org/10.3390/f13050751</a>.
-</div>
-<div id="ref-RN32" class="csl-entry" role="listitem">
-Downes, G., J. Harrington, M. Lausberg, and D. Lee. 2023. <span>“Online Processing of Resi Traces for Commercial Inventory of Plantation Wood Quality.”</span> Conference Paper.
-</div>
 <div id="ref-Downes2016" class="csl-entry" role="listitem">
 Downes, G, and M Lausberg. 2016. <span>“Evaluation of the RESI Software Tool for the Prediction of HM200 Within Pine Logs Sourced from Multiple Sites Across New Zealand and Australia.”</span> <em>Unpublished</em>. <a href="https://doi.org/10.13140/RG.2.2.13695.38560">https://doi.org/10.13140/RG.2.2.13695.38560</a>.
 </div>
@@ -281,12 +271,6 @@ Downes, G, and D Lee. 2024. <span>“Report 32: Discussion Paper: Towards Improv
 </div>
 <div id="ref-evans1994" class="csl-entry" role="listitem">
 Evans, Robert. 1994. <span>“Rapid Measurement of the Transverse Dimensions of Tracheids in Radial Wood Sections from <span><em>Pinus Radiata</em></span>.”</span> <em>Hfsg</em> 48 (2): 168–72. <a href="https://doi.org/10.1515/hfsg.1994.48.2.168">https://doi.org/10.1515/hfsg.1994.48.2.168</a>.
-</div>
-<div id="ref-RN52" class="csl-entry" role="listitem">
-Gendvilas, Vilius, Geoffrey M. Downes, Marco Lausberg, Jonathan J. Harrington, and David J. Lee. 2024. <span>“Predicting Wood Density Using Resistance Drilling: The Effect of Varying Feed Speed and RPM.”</span> Journal Article. <em>Forests</em> 15 (4). <a href="https://doi.org/10.3390/f15040579">https://doi.org/10.3390/f15040579</a>.
-</div>
-<div id="ref-gendvilas2020" class="csl-entry" role="listitem">
-Gendvilas, Vilius, Geoffrey M. Downes, Mark Neyland, Mark Hunt, Andrew Jacobs, and Julianne O’Reilly-Wapstra. 2020. <span>“Friction Correction When Predicting Wood Basic Density Using Drilling Resistance.”</span> <em>Holzforschung</em> 75 (6): 508–16. <a href="https://doi.org/10.1515/hf-2020-0156">https://doi.org/10.1515/hf-2020-0156</a>.
 </div>
 <div id="ref-gendvilas2024a" class="csl-entry" role="listitem">
 Gendvilas, Vilius, David J. Lee, Dominic P. Kain, Chandan Kumar, Geoff M. Downes, Marco Lausberg, and Jonathan J. Harrington. 2024. <span>“Predicting Wood Density Using Resistance Drilling: The Effect of Instrument and Operator.”</span> <em>Forests</em> 15 (1): 157. <a href="https://doi.org/10.3390/f15010157">https://doi.org/10.3390/f15010157</a>.
@@ -308,9 +292,6 @@ Pot, Guillaume, Joffrey Viguier, and Anders Olsson. 2025a. <span>“Evaluating D
 </div>
 <div id="ref-pot2025a" class="csl-entry" role="listitem">
 ———. 2025b. <span>“Evaluating Distance to the Pith as a Parameter for Strength Grading of Douglas Fir (Pseudotsuga Menziesii (Mirb.) Franco).”</span> <em>Forests</em> 16 (3): 504. <a href="https://doi.org/10.3390/f16030504">https://doi.org/10.3390/f16030504</a>.
-</div>
-<div id="ref-sharapov2019" class="csl-entry" role="listitem">
-Sharapov, Evgenii, Christian Brischke, Holger Militz, and Elena Smirnova. 2019. <span>“Prediction of Modulus of Elasticity in Static Bending and Density of Wood at Different Moisture Contents and Feed Rates by Drilling Resistance Measurements.”</span> <em>European Journal of Wood and Wood Products</em> 77 (5): 833–42. <a href="https://doi.org/10.1007/s00107-019-01439-2">https://doi.org/10.1007/s00107-019-01439-2</a>.
 </div>
 <div id="ref-waghorn2007" class="csl-entry" role="listitem">
 Waghorn, Matthew J., Euan G. Mason, and Michael S. Watt. 2007. <span>“Influence of Initial Stand Density and Genotype on Longitudinal Variation in Modulus of Elasticity for 17-Year-Old Pinus Radiata.”</span> <em>Forest Ecology and Management</em> 252 (1-3): 67–72. <a href="https://doi.org/10.1016/j.foreco.2007.06.019">https://doi.org/10.1016/j.foreco.2007.06.019</a>.
@@ -749,8 +730,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./NIR-Analysis.html" class="pagination-link" aria-label="NIR analysis">
-        <span class="nav-page-text">NIR analysis</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Quantitative-Analysis.html" class="pagination-link" aria-label="Trace processing">
+        <span class="nav-page-text">Trace processing</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -768,7 +749,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false});
+<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","descPosition":"bottom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

@@ -2,12 +2,21 @@
 title: "Forest Quality Pty Ltd"
 date: today
 lightbox: auto
+fig-cap-location: top
 editor: 
   markdown: 
     wrap: 120
 ---
 
 <br>
+
+::: {layout-ncol="3"}
+![Increment Core sampling](./images/coreSampling.png)
+
+![Resi sampling](./images/Resi_Marco.jpg)
+
+![Bruker MPA](./images/BrukerMPA.png)
+:::
 
 Forest Quality is a research and development company aimed at facilitating the evaluation of wood quality and improving
 the value of the standing tree. Based in southern Tasmania, Australia, we provide the following services
@@ -31,10 +40,4 @@ the value of the standing tree. Based in southern Tasmania, Australia, we provid
 
 -   Analysis and reporting services of wood quality assessments utilising R and reported using Quarto.
 
-::: {layout-ncol="3"}
-![Increment Core sampling](./images/coreSampling.png)
-
-![Resi sampling](./images/Resi_Marco.jpg)
-
-![Site mean density maps](./images/TPPL%20TreeMaps.png)
-:::
+![Site mean density maps](./images/TPPL%20TreeMaps.png){width="6in" fig-align="center"}
