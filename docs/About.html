@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,6 +49,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./Data-Analysis.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -109,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">About us</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./About.html">About us</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -173,6 +193,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Data analysis</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./About.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">About us</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -183,8 +209,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
+  <li><a href="#contact" id="toc-contact" class="nav-link active" data-scroll-target="#contact">Contact</a></li>
   </ul>
 </nav>
     </div>
@@ -211,13 +236,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><br></p>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>After leaving CSIRO in 2012 Geoff Downes established FQ as a Research, Development and Extension company with a view to develop and supply wood quality assessment services to the forest industry. Through many years of working with industry and involvement in non-destructive wood property measurement (SilviScan, near infra red spectroscopy (NIRS), standing tree and log acoustics) the need was still there for an assessment approach that was sufficiently low cost to allow broad-scale, routine application in forest evaluation. Since its inception, FQ has offered routine NIR analytical services, investing in the establishment of a Bruker MPA instrument utlising well-tested calibrations for the prediction of kraft pulp yield and cellulose content in plantation eucalypts. Since then we have undertaken the evaluation of over 30 thousand wood meal samples for Australian eucalypt growers and this data has provided an important input into the eucalypt breeding programmes of our industry.</p>
-<p>In 2015 the opportunity arose to explore the application of resistance drilling to the estimation of softwood log quality through relating data to log stiffness (MOE), an important indicator of resultant board properties post processing. Resistance drilling (IML PD series power drills; RinnTech Resistograph<sup>TM</sup>) allows the measurement of a standing tree with high resolution data describing average wood properties (primarily basic density) and their radial patterns of variation, taking only seconds to sample a tree. To facilitate its commercial use, we developed a web-based processing platform (e.g <a href="https://forestquality.shinyapps.io/OpenAccess/" class="uri">https://forestquality.shinyapps.io/OpenAccess/</a>) that allowed the drill data to be uploaded, processed and key metrics of growth (over and under bark diameters) and wood properties (basic density and stiffness) to be predicted.</p>
-<p>After multiple studies developing sampling protocols and establishing the accuracy, precision and robustness of the measures, resistance drilling is rapidly establishing itself as a routine commercial operation, contributing to the communication between growers and processors of logs regarding quality attributes based on density and stiffness.</p>
+<p>Forestry Quality was established in 2012 as spin-off from the CRC Forestry (<a href="https://www.eoas.info/biogs/A002315b.htm" class="uri">https://www.eoas.info/biogs/A002315b.htm</a>) which operated from 2005 to 2013. The focus was a Research, Development and Extension company that would take some of the wood quality assessment technology developed within the CRC to continue to provide these to the forest industry. Through many years of working with industry and involvement in non-destructive wood property measurement (SilviScan, near infra red spectroscopy (NIRS), standing tree and log acoustics) the need was still there for an assessment approach that was sufficiently low cost to allow broad-scale, routine application in forest evaluation.</p>
+<p>Since its inception, FQ has offered routine NIR analytical services, investing in the establishment of an NIR analytical laboratory utilising well-tested calibrations for the prediction of Kraft pulp yield and cellulose content in plantation eucalypts. Since 2012 we have undertaken the evaluation of over 30 thousand wood meal samples for Australian eucalypt growers and this data has provided an important input into the eucalypt breeding programmes of our industry, as well as providing detailed information on how pulp yield and basic density vary across some of the plantation eucalypt estate.</p>
+<p>In 2015 the opportunity arose to explore the application of resistance drilling to the estimation of softwood log quality through relating measurement data to log stiffness (MOE), an important indicator of resultant board properties post log processing. Resistance drilling (IML PD series power drills; RinnTech Resistograph<sup>TM</sup>) allows the measurement of a standing tree with high resolution data describing average wood properties (primarily basic density) and their radial patterns of variation, taking only seconds to sample a tree.</p>
+<p>To facilitate its commercial use, we developed a web-based processing platform (e.g <a href="https://forestquality.shinyapps.io/OpenAccess/" class="uri">https://forestquality.shinyapps.io/OpenAccess/</a>) that allowed the drill data to be uploaded, processed and key metrics of growth (over and under bark diameters) and wood properties (basic density and stiffness) to be predicted. This platform allows thousands of traces to be uploaded and processed in a single upload. Data is processed and nothing is stored in the cloud, although the connection to online data bases could be enabled if there was commercial demand.</p>
+<p>After multiple studies developing sampling protocols <span class="citation" data-cites="RN12">[<a href="#ref-RN12" role="doc-biblioref">1</a>]</span> and establishing the accuracy, precision and robustness of the measures (e.g. <span class="citation" data-cites="downes2018 downes2022 gendvilas2020 gendvilas2024a RN12">[<a href="#ref-RN12" role="doc-biblioref">1</a>–<a href="#ref-gendvilas2024a" role="doc-biblioref">5</a>]</span>), resistance drilling is rapidly establishing itself as a routine commercial operation, contributing to the communication between growers and processors of logs regarding quality attributes based on density and stiffness.</p>
 <p>Our IP and software is being utilised by many softwood growers and sawmill processors across Australia, as well as companies in Indonesia, China, South Africa, Brazil and New Zealand.</p>
-</section>
 <section id="contact" class="level2">
 <h2 class="anchored" data-anchor-id="contact">Contact</h2>
 <p>Dr Geoff Downes FIAWS</p>
@@ -229,9 +253,26 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-RN12" class="csl-entry" role="listitem">
+1. Downes G, Watt D, Petfield D, Lausberg M, Harrington J, Rawley B, et al. Report 1: Resi tool wood quality sampling and data management manual. University of the Sunshine Coast; 2024.
+</div>
+<div id="ref-downes2018" class="csl-entry" role="listitem">
+2. Downes GM, Lausberg M, Potts BM, Pilbeam DL, Bird M, Bradshaw B. Application of the IML Resistograph to the infield assessment of basic density in plantation eucalypts. Australian Forestry [Internet]. 2018;81:177–85. Available from: <a href="http://dx.doi.org/10.1080/00049158.2018.1500676">http://dx.doi.org/10.1080/00049158.2018.1500676</a>
+</div>
+<div id="ref-downes2022" class="csl-entry" role="listitem">
+3. Downes GM, Harrington JJ, Drew DM, Lausberg M, Muyambo P, Watt D, et al. A Comparison of Radial Wood Property Variation on Pinus radiata between an IML PD-400 <span>‘</span>Resi<span>’</span> Instrument and Increment Cores Analysed by SilviScan. Forests [Internet]. 2022;13:751. Available from: <a href="http://dx.doi.org/10.3390/f13050751">http://dx.doi.org/10.3390/f13050751</a>
+</div>
+<div id="ref-gendvilas2020" class="csl-entry" role="listitem">
+4. Gendvilas V, Downes GM, Neyland M, Hunt M, Jacobs A, O’Reilly-Wapstra J. Friction correction when predicting wood basic density using drilling resistance. Holzforschung [Internet]. 2020;75:508–16. Available from: <a href="http://dx.doi.org/10.1515/hf-2020-0156">http://dx.doi.org/10.1515/hf-2020-0156</a>
+</div>
+<div id="ref-gendvilas2024a" class="csl-entry" role="listitem">
+5. Gendvilas V, Lee DJ, Kain DP, Kumar C, Downes GM, Lausberg M, et al. Predicting Wood Density Using Resistance Drilling: The Effect of Instrument and Operator. Forests [Internet]. 2024;15:157. Available from: <a href="http://dx.doi.org/10.3390/f15010157">http://dx.doi.org/10.3390/f15010157</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -652,6 +693,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./Data-Analysis.html" class="pagination-link" aria-label="Data analysis">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data analysis</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

@@ -3,6 +3,7 @@ title: "Resistance drilling"
 bibliography: references.bib
 lightbox: true
 fig-cap-location: top
+csl: current-forestry-reports.csl
 ---
 
 ![Resi Sampling in a radiata pine plantation in New Zealand](./images/Resi_Marco.jpg){width="5in" fig-align="left"}

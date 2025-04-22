@@ -3,6 +3,7 @@ title: "Forest Quality Pty Ltd"
 date: today
 lightbox: auto
 fig-cap-location: top
+csl: current-forestry-reports.csl
 editor: 
   markdown: 
     wrap: 120

@@ -22,6 +22,8 @@ website:
           - NIR-basics.qmd
     - text: "Data analysis"
       href: Data-Analysis.qmd
+    - text: "About us"
+      href: About.qmd
   
   navbar:
     collapse: true

@@ -3,6 +3,7 @@ title: "Data Analyses"
 bibliography: references.bib
 lightbox: true
 fig-cap-location: bottom
+csl: current-forestry-reports.csl
 ---
 
 <br>

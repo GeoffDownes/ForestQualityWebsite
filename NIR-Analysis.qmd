@@ -1,6 +1,7 @@
 ---
 title: "NIR Analyses"
 bibliography: references.bib
+csl: current-forestry-reports.csl
 ---
 
 ## The Value Proposition
