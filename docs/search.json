@@ -39,7 +39,10 @@
     "href": "index.html",
     "title": "Forest Quality Pty Ltd",
     "section": "",
-    "text": "Increment Core sampling\n\n\n\n\n\n\n\nResi sampling\n\n\n\n\n\n\n\nBruker MPA\n\n\n\n\n\n\nForest Quality is a research and development company aimed at facilitating the evaluation of wood quality and improving the value of the standing tree. Based in southern Tasmania, Australia, we provide the following services\n\nWeb-based processing platforms where users can process resistance drill traces taken using the IML PD series power drills to assess\n\nbasic density\npredicted stiffness\nover and under bark diameter\nbark thickness\nradial variation in density and predicted stiffness\n\nNIR analysis for the prediction of the following properties in eucalypt samples\n\nKraft pulp yield\nCellulose content\nBasic density\nLignin content\nExtractives\n\nAnalysis and reporting services of wood quality assessments utilising R and reported using Quarto.\n\n\n\nSite mean density maps"
+    "text": "Increment Core sampling\n\n\n\n\n\n\n\nResi sampling\n\n\n\n\n\n\n\nBruker MPA\n\n\n\n\n\n\nForest Quality is a research and development company aimed at facilitating the evaluation of wood quality and improving the value of the standing tree. Based in southern Tasmania, Australia, we provide the following services\n\nWeb-based processing platforms where users can process resistance drill traces taken using the IML PD series power drills to assess\n\nbasic density\npredicted stiffness\nover and under bark diameter\nbark thickness\nradial variation in density and predicted stiffness\n\nNIR analysis for the prediction of the following properties in eucalypt samples\n\nKraft pulp yield\nCellulose content\nBasic density\nLignin content\nExtractives\n\nAnalysis and reporting services of wood quality assessments utilising R and reported using Quarto.\n\n\n\nSite mean density maps",
+    "crumbs": [
+      "Introduction"
+    ]
   },
   {
     "objectID": "About.html#background",
@@ -56,11 +59,11 @@
     "text": "Contact\nDr Geoff Downes FIAWS\n\nemail: geoff.downes@forestquality.com\nPostal Address: PO Box 293, Huonville, Tasmaniam 7113, Australia\nPhone: (+61) 488 023 628\nhttps://www.researchgate.net/profile/Geoffrey-Downes"
   },
   {
-    "objectID": "Data-Analysis.html",
-    "href": "Data-Analysis.html",
+    "objectID": "Data-Analysis.html#data-collection-field-work",
+    "href": "Data-Analysis.html#data-collection-field-work",
     "title": "Data Analyses",
-    "section": "",
-    "text": "## Data collection: field work",
+    "section": "Data collection: field work",
+    "text": "Data collection: field work\nField work is expensive and consequently needs to be well planned and targeted. Typically in R&D applications every study has different requirements and objectives, and so a clear written plan stating the objectives and purposes of the study is needed. This should include clear, step-by-step instructions for measurements which need to be collected in the field, such as green dry weight and volumes for the calculation of green density. Where possible any measurements that can be done in the office or laboratory should be done there, where measurement control, efficiency and comfort (discomfort increases the chances of errors and accidents) are typically greater.\nWith respect to in-field wood property measurement and methodology, FQ can advise in the preparation of targeted work plans. We can also undertake or contribute to the actual in-field sampling.\n\n\n\n\n\n\n\n\nPreparing lab samples and green density\n\n\n\n\n\n\n\nSet up for measuring green volume\n\n\n\n\n\n\n\nDisc cross section for NIR, sampled with Resi.",
     "crumbs": [
       "Introduction",
       "Data analysis"
@@ -71,7 +74,7 @@
     "href": "Data-Analysis.html#data-processing",
     "title": "Data Analyses",
     "section": "Data processing",
-    "text": "Data processing",
+    "text": "Data processing\nData checking and prperation as a critical part of any analysis. Clear sample labelling, record keeping and data collation are essential. With respect to resi sampling, our web platform for processing data (e.g. https://forestquality.shinyapps.io/FQResi/) is designed to facilitate this. Each Resi trace has a unique filename, associated with a Tree ID entered by the user. There is also a comment field associated with each trace which can be used to record any features unique to that trace (this has to be filled out on the PD instrument prior to sampling).\nFQ utilises the R programming language (R Core Team 2025) for data checking and analyses.",
     "crumbs": [
       "Introduction",
       "Data analysis"
@@ -82,18 +85,7 @@
     "href": "Data-Analysis.html#analysis-and-reporting",
     "title": "Data Analyses",
     "section": "Analysis and reporting",
-    "text": "Analysis and reporting\nWe can undertake the analysis and reporting of wood property data collected either by us or others, utilising our experience with data analysis and the broader literature. An example of a report produced is:!Example Report",
-    "crumbs": [
-      "Introduction",
-      "Data analysis"
-    ]
-  },
-  {
-    "objectID": "Data-Analysis.html#references",
-    "href": "Data-Analysis.html#references",
-    "title": "Data Analyses",
-    "section": "References",
-    "text": "References",
+    "text": "Analysis and reporting\nWe can undertake the analysis and reporting of wood property data collected either by us or others, utilising our experience with data analysis and the broader literature. An example of a report produced is:!Example Report\nTypically we would analyse data and prepare reports using Rmarkdown (Allaire et al. 2024)or Quarto within the Rstudio environment (Posit team 2024). In this way data preparation, analyses and reporting is recorded and transparent.",
     "crumbs": [
       "Introduction",
       "Data analysis"
@@ -104,7 +96,7 @@
     "href": "NIR-Analysis.html",
     "title": "NIR Analyses",
     "section": "",
-    "text": "Growing eucalypts for pulp depends on growing merchantable volume as quickly as possible. The mass of pulp produced from each unit area of forest depends on\n\nMerchantable volume\nWood density\nPulp yield\n\n​Pulp yield is the proportion of biomass that remains at the end of the pulping process (GM Downes et al. 1997).\n​For a pulp mill processing 4 million green tonnes of wood per year, an increase in Kraft pulp yield (KPY) of 1% equates to ~20,000 tonnes of extra pulp for no additional growing or processing costs.\nUnlike volume and density, KPY has been slow and expensive to measure. Consequently both forest growers and pulp manufacturers have had limited opportunity to include it in managing their value chain.\n​NIR prediction of KPY is inexpensive, requires only small (1 gram or more) samples.",
+    "text": "Growing eucalypts for pulp depends on growing merchantable volume as quickly as possible. The mass of pulp produced from each unit area of forest depends on\n\nMerchantable volume\nWood density\nPulp yield\n\n​Pulp yield is the proportion of biomass that remains at the end of the pulping process (Geoffrey M. Downes et al. 1997).\n​For a pulp mill processing 4 million green tonnes of wood per year, an increase in Kraft pulp yield (KPY) of 1% equates to ~20,000 tonnes of extra pulp for no additional growing or processing costs.\nUnlike volume and density, KPY has been slow and expensive to measure. Consequently both forest growers and pulp manufacturers have had limited opportunity to include it in managing their value chain.\n​NIR prediction of KPY is inexpensive, requires only small (1 gram or more) samples.",
     "crumbs": [
       "Introduction",
       "NIR analysis"
@@ -115,7 +107,7 @@
     "href": "NIR-Analysis.html#the-value-proposition",
     "title": "NIR Analyses",
     "section": "",
-    "text": "Growing eucalypts for pulp depends on growing merchantable volume as quickly as possible. The mass of pulp produced from each unit area of forest depends on\n\nMerchantable volume\nWood density\nPulp yield\n\n​Pulp yield is the proportion of biomass that remains at the end of the pulping process (GM Downes et al. 1997).\n​For a pulp mill processing 4 million green tonnes of wood per year, an increase in Kraft pulp yield (KPY) of 1% equates to ~20,000 tonnes of extra pulp for no additional growing or processing costs.\nUnlike volume and density, KPY has been slow and expensive to measure. Consequently both forest growers and pulp manufacturers have had limited opportunity to include it in managing their value chain.\n​NIR prediction of KPY is inexpensive, requires only small (1 gram or more) samples.",
+    "text": "Growing eucalypts for pulp depends on growing merchantable volume as quickly as possible. The mass of pulp produced from each unit area of forest depends on\n\nMerchantable volume\nWood density\nPulp yield\n\n​Pulp yield is the proportion of biomass that remains at the end of the pulping process (Geoffrey M. Downes et al. 1997).\n​For a pulp mill processing 4 million green tonnes of wood per year, an increase in Kraft pulp yield (KPY) of 1% equates to ~20,000 tonnes of extra pulp for no additional growing or processing costs.\nUnlike volume and density, KPY has been slow and expensive to measure. Consequently both forest growers and pulp manufacturers have had limited opportunity to include it in managing their value chain.\n​NIR prediction of KPY is inexpensive, requires only small (1 gram or more) samples.",
     "crumbs": [
       "Introduction",
       "NIR analysis"
@@ -126,7 +118,7 @@
     "href": "NIR-Analysis.html#low-cost-pulp-yield-assessment",
     "title": "NIR Analyses",
     "section": "Low cost Pulp Yield assessment",
-    "text": "Low cost Pulp Yield assessment\nNear Infra Red (NIR) spectroscopy is widely used in agriculture and manufacturing. Application to KPY measurement  spans two decades of R&D, demonstrating its ability to provide precise measurements of KPY in samples as small as 0.5 gm. \nNumerous studies have shown NIR offers\n​Low cost measurement\n\nExpanded application of traditional analyses\nEfficient ranking of trees and sites\nPrecise KPY values that are highly heritable\n\nNIR can be used to measure a range of commercially valuable wood properties\n\nPulp Yield (G. M. Downes et al. 2011; Geoff Downes, Meder, and Harwood 2010; Geoffrey M. Downes et al. 2010, 2012; GM Downes et al. 2009)\nDensity  (G. M. Downes et al. 2011)\nDry Matter content (Geoff Downes et al. 2009)\nStiffness (Geoffrey M. Downes et al. 2014; Wentzel-Vietheer et al. 2013)\nMicrofibril Angle (Geoffrey M. Downes et al. 2014)\nNon-recoverable collapse (Geoffrey M. Downes et al. 2014; Wentzel-Vietheer et al. 2013)\n\nThe biggest issue is trusting the values that NIR measurement generates. \nConsequently any application of NIR requires a means of quality control until such time as the user has confidence that the values are precise.  This can only occur through repeated experience.\nThe development of NIR calibrations is therefore an iterative process.  Cycles of development and validation are required until precise and accurate predictions are consistently obtained.  This process applies to both the type of NIR application being developed and the individual wood property being measured.\nNear Infra Red spectroscopy is a multi-variate statistical approach to obtain qualitative and/or quantitative information about the properties of an organic substance based on its absorption of light in the near infra red range (typically 1000 – 2500 nm)",
+    "text": "Low cost Pulp Yield assessment\nNear Infra Red (NIR) spectroscopy is widely used in agriculture and manufacturing. Application to KPY measurement  spans two decades of R&D, demonstrating its ability to provide precise measurements of KPY in samples as small as 0.5 gm. \nNumerous studies have shown NIR offers\n​Low cost measurement\n\nExpanded application of traditional analyses\nEfficient ranking of trees and sites\nPrecise KPY values that are highly heritable\n\nNIR can be used to measure a range of commercially valuable wood properties\n\nPulp Yield (Geoffrey M. Downes et al. 2011, 2009, 2012; Geoff Downes, Meder, and Harwood 2010; Geoffrey M. Downes et al. 2010)\nDensity  (Geoffrey M. Downes et al. 2011)\nDry Matter content (Geoffrey Downes et al. 2009)\nStiffness (Geoffrey M. Downes et al. 2014; Wentzel-Vietheer et al. 2013)\nMicrofibril Angle (Geoffrey M. Downes et al. 2014)\nNon-recoverable collapse (Geoffrey M. Downes et al. 2014; Wentzel-Vietheer et al. 2013)\n\nThe biggest issue is trusting the values that NIR measurement generates. \nConsequently any application of NIR requires a means of quality control until such time as the user has confidence that the values are precise.  This can only occur through repeated experience.\nThe development of NIR calibrations is therefore an iterative process.  Cycles of development and validation are required until precise and accurate predictions are consistently obtained.  This process applies to both the type of NIR application being developed and the individual wood property being measured.\nNear Infra Red spectroscopy is a multi-variate statistical approach to obtain qualitative and/or quantitative information about the properties of an organic substance based on its absorption of light in the near infra red range (typically 1000 – 2500 nm)",
     "crumbs": [
       "Introduction",
       "NIR analysis"

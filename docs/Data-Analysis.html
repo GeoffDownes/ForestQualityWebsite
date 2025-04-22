@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -40,6 +60,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -131,14 +154,18 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Introduction</span></span>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./Resistance-Drilling.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Resistance Drilling</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Quantitative-Analysis.html" class="sidebar-item-text sidebar-link">
@@ -151,11 +178,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./NIR-Analysis.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">NIR analysis</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./NIR-basics.html" class="sidebar-item-text sidebar-link">
@@ -180,7 +207,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-processing" id="toc-data-processing" class="nav-link active" data-scroll-target="#data-processing">Data processing</a></li>
+  <li><a href="#data-collection-field-work" id="toc-data-collection-field-work" class="nav-link active" data-scroll-target="#data-collection-field-work">Data collection: field work</a></li>
+  <li><a href="#data-processing" id="toc-data-processing" class="nav-link" data-scroll-target="#data-processing">Data processing</a></li>
   <li><a href="#analysis-and-reporting" id="toc-analysis-and-reporting" class="nav-link" data-scroll-target="#analysis-and-reporting">Analysis and reporting</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
@@ -208,21 +236,71 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><br> ## Data collection: field work</p>
+<p><br></p>
+<section id="data-collection-field-work" class="level2">
+<h2 class="anchored" data-anchor-id="data-collection-field-work">Data collection: field work</h2>
+<p>Field work is expensive and consequently needs to be well planned and targeted. Typically in R&amp;D applications every study has different requirements and objectives, and so a clear written plan stating the objectives and purposes of the study is needed. This should include clear, step-by-step instructions for measurements which need to be collected in the field, such as green dry weight and volumes for the calculation of green density. Where possible any measurements that can be done in the office or laboratory should be done there, where measurement control, efficiency and comfort (discomfort increases the chances of errors and accidents) are typically greater.</p>
+<p>With respect to in-field wood property measurement and methodology, FQ can advise in the preparation of targeted work plans. We can also undertake or contribute to the actual in-field sampling.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption>Preparing lab samples and green density</figcaption>
+<p><a href="./images/Dropsaw.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Preparing lab samples and green density"><img src="./images/Dropsaw.png" class="img-fluid figure-img" alt="Preparing lab samples and green density"></a></p>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption>Set up for measuring green volume</figcaption>
+<p><a href="./images/Disc in jug.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Set up for measuring green volume"><img src="./images/Disc in jug.jpg" class="img-fluid figure-img" alt="Set up for measuring green volume"></a></p>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption>Disc cross section for NIR, sampled with Resi.</figcaption>
+<p><a href="./images/RadialStripWithResiTrace.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Disc cross section for NIR, sampled with Resi."><img src="./images/RadialStripWithResiTrace.png" class="img-fluid figure-img" alt="Disc cross section for NIR, sampled with Resi."></a></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
 <section id="data-processing" class="level2">
 <h2 class="anchored" data-anchor-id="data-processing">Data processing</h2>
+<p>Data checking and prperation as a critical part of any analysis. Clear sample labelling, record keeping and data collation are essential. With respect to resi sampling, our web platform for processing data (e.g.&nbsp;https://forestquality.shinyapps.io/FQResi/) is designed to facilitate this. Each Resi trace has a unique filename, associated with a Tree ID entered by the user. There is also a comment field associated with each trace which can be used to record any features unique to that trace (this has to be filled out on the PD instrument prior to sampling).</p>
+<p>FQ utilises the R programming language <span class="citation" data-cites="R">(<a href="#ref-R" role="doc-biblioref">R Core Team 2025</a>)</span> for data checking and analyses.</p>
 </section>
 <section id="analysis-and-reporting" class="level2">
 <h2 class="anchored" data-anchor-id="analysis-and-reporting">Analysis and reporting</h2>
 <p>We can undertake the analysis and reporting of wood property data collected either by us or others, utilising our experience with data analysis and the broader literature. An example of a report produced is:!<a href="ThreeResi_SilviScanAnalysis-radiata.pdf">Example Report</a></p>
+<p>Typically we would analyse data and prepare reports using Rmarkdown <span class="citation" data-cites="rmarkdown">(<a href="#ref-rmarkdown" role="doc-biblioref">Allaire et al. 2024</a>)</span>or Quarto within the Rstudio environment <span class="citation" data-cites="rstudio">(<a href="#ref-rstudio" role="doc-biblioref">Posit team 2024</a>)</span>. In this way data preparation, analyses and reporting is recorded and transparent.</p>
 </section>
 <section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
+
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-rmarkdown" class="csl-entry" role="listitem">
+Allaire, JJ, Yihui Xie, Christophe Dervieux, Jonathan McPherson, Javier Luraschi, Kevin Ushey, Aron Atkins, et al. 2024. <span>“Rmarkdown: Dynamic Documents for r.”</span> <a href="https://github.com/rstudio/rmarkdown">https://github.com/rstudio/rmarkdown</a>.
+</div>
+<div id="ref-rstudio" class="csl-entry" role="listitem">
+Posit team. 2024. <span>“RStudio: Integrated Development Environment for r.”</span> <a href="http://www.posit.co/">http://www.posit.co/</a>.
+</div>
+<div id="ref-R" class="csl-entry" role="listitem">
+R Core Team. 2025. <em>R: A Language and Environment for Statistical Computing</em>. Vienna, Austria: R Foundation for Statistical Computing. <a href="https://www.R-project.org/">https://www.R-project.org/</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -666,6 +744,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

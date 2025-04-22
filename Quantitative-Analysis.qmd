@@ -1,9 +1,9 @@
 ---
 bibliography: references.bib
-fig-cap-location: top
+fig-cap-location: bottom
 ---
 
-![Web platform user interface](./images/WebPlatformGUI.png){width=6in fig-align="center"}
+![Web platform user interface](./images/WebPlatformGUI.png){width="6in" fig-align="center"}
 
 ## Trace processing
 
@@ -16,6 +16,5 @@ At FQ we set about developing and testing a web platform application that would 
     -   [@downes2018; @downes2022; @Downes2016; @RN32; @gendvilas2024a; @RN52; @gendvilas2020]
 -   becoming incorporated into growth and yield tables
 -   adopted in an increasing range of countries including NewZealand, Indonesia, China and Brazil
-
 
 ## References

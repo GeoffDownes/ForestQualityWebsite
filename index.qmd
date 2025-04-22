@@ -11,7 +11,7 @@ editor:
 <br>
 
 ::: {layout-ncol="3"}
-![Increment Core sampling](./images/coreSampling.png)
+![Increment Core sampling](./images/coreSampling_lowres.png)
 
 ![Resi sampling](./images/Resi_Marco.jpg)
 

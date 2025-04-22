@@ -9,6 +9,9 @@ website:
     style: "docked"
     search: true
     contents: 
+    - section: "Introduction"
+      href: index.qmd
+      contents: 
     - section: "Resistance Drilling"
       href: Resistance-Drilling.qmd
       contents: 
