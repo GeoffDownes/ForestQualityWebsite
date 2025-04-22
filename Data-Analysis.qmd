@@ -2,7 +2,7 @@
 title: "Data Analyses"
 bibliography: references.bib
 lightbox: true
-fig-cap-location: top
+fig-cap-location: bottom
 ---
 
 <br>
